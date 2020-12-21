@@ -14,7 +14,5 @@
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-  position: absolute;
-  margin: 0 auto;
-  left: 43%;
+  margin: -13rem;
 }

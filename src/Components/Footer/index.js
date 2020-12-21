@@ -6,8 +6,8 @@ function Footer() {
   const clickEvent = (e) => {};
 
   return (
-    <div className="wrapper">
-      <Title text="Rain Media" />
+    <div className="container-fluid wrapper">
+      <Title text="RainMedia." />
       <div className="container addressContainer">
         <div className="row">
           <div className="col-md-6">
