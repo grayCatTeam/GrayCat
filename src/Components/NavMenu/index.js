@@ -1,6 +1,6 @@
 import './navmenu.css';
 
-function NavMenu() {
+function Index() {
   return (
     <div className="container">
       <div className="navHeader d-flex justify-content-between align-items-center">
@@ -27,4 +27,4 @@ function NavMenu() {
   );
 }
 
-export default NavMenu;
+export default Index;

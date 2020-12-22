@@ -1,7 +1,7 @@
 import { IconContext } from 'react-icons';
 import './header.css';
 import { HiMenuAlt1 } from 'react-icons/hi';
-import NavMenu from '../NavMenu/navMenu';
+import Index from '../NavMenu';
 
 function Header() {
   return (
@@ -26,7 +26,7 @@ function Header() {
           >
             <IconContext.Provider value={{ color: 'black', size: '2em' }}>
               <div>
-                <HiMenuAlt1 />
+                <HiMenuAlt1 style={{ color: 'white' }} />
               </div>
             </IconContext.Provider>
           </button>
@@ -41,7 +41,7 @@ function Header() {
           <div className="modal-dialog modal-fullscreen">
             <div className="modal-content">
               <div className="modal-body">
-                <NavMenu />
+                <Index />
               </div>
             </div>
           </div>

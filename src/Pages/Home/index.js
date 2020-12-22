@@ -10,13 +10,14 @@ function Home() {
     <div className="container-fluid-xl homeWrapper">
       <div className="landing">
         <Header />
+        <div className="overlay"></div>
         <video
           autoPlay
           loop
           muted
           style={{
             width: '100%',
-            position: 'absolute',
+            position: 'fixed',
             left: 0,
             top: 0,
             zIndex: -1,
