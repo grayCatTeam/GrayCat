@@ -1,0 +1,28 @@
+.container {
+  display: inline;
+}
+
+.container span {
+  font-size: 2rem;
+  font-weight: 600;
+  position: relative;
+}
+span img {
+  position: absolute;
+  left: 0;
+  top: 45px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.number p {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  font-weight: 300;
+  word-spacing: 0px;
+  letter-spacing: 1px;
+  color: #676767;
+}

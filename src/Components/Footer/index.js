@@ -1,13 +1,15 @@
-import Title from '../Title';
 import './footer.css';
 import { FaTwitter, FaInstagram, FaVimeoV, FaFacebookF } from 'react-icons/fa';
+import RainTitle from '../../Assets/images/footerTitle.svg';
 
 function Footer() {
   const clickEvent = (e) => {};
 
   return (
-    <div className="container-fluid wrapper">
-      <Title text="RainMedia." />
+    <div className="wrapper">
+      <div className="footerTitle d-flex justify-content-center mt-5 mb-5">
+        <img src={RainTitle} />
+      </div>
       <div className="container addressContainer">
         <div className="row">
           <div className="col-md-6">

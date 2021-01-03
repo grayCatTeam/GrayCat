@@ -1,0 +1,33 @@
+.header {
+  background-color: black;
+  min-height: 40vh;
+}
+
+.first {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.second {
+  padding-left: 9.5rem;
+}
+
+.eduBox {
+  margin-top: 3rem;
+}
+
+.education p {
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+  color: #868686;
+}
+
+.galery {
+  padding-left: 10rem;
+}
+
+.letsContainer {
+  min-height: 700px;
+}
