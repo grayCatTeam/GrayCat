@@ -5,11 +5,9 @@ import ContentLanding from '../../Components/ContentLanding';
 import varierty from '../../Assets/images/varierty.svg';
 import Footer from '../../Components/Footer';
 import work from '../../Assets/images/work.svg';
-import Pagination from 'rc-pagination';
 import 'rc-pagination/assets/index.css';
 import LetsComponent from '../../Components/LetsComponent';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import background from '../../Assets/images/branding.png';
 import SlideTestimonial from '../../Components/SlideTestimonial/slideTestimonial';
 
 const portfolio = [

@@ -1,0 +1,25 @@
+
+.header {
+    background-color: black;
+    min-height: 40vh;
+}
+
+.formBox {
+    width: 100%;
+    padding: 0 10rem;
+    margin: 2rem 0;
+}
+
+.formBox label {
+    margin: 1rem 0;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.formBox input {
+
+}

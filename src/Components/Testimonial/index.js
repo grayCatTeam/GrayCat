@@ -16,49 +16,49 @@ function Testimonial() {
 
       <div className="clientLogo container">
         <div className="clientLogoBox">
-          <img src={earth} />
+          <img src={earth} alt="earth" />
         </div>
         <div className="clientLogoBox">
-          <img src={asgardia} />
+          <img src={asgardia} alt="asgardia"/>
         </div>
         <div className="clientLogoBox">
-          <img src={circle} />
+          <img src={circle}  alt="logo"/>
         </div>
         <div className="clientLogoBox">
-          <img src={harakiri} />
+          <img src={harakiri} alt="logo"/>
         </div>
         <div className="clientLogoBox">
-          <img src={muzica} />
+          <img src={muzica} alt="logo"/>
         </div>
         <div className="clientLogoBox">
-          <img src={earth} />
+          <img src={earth} alt="logo"/>
         </div>
         <div className="clientLogoBox">
-          <img src={asgardia} />
+          <img src={asgardia} alt="logo"/>
         </div>
         <div className="clientLogoBox">
-          <img src={circle} />
+          <img src={circle} alt="logo"/>
         </div>
         <div className="clientLogoBox">
-          <img src={harakiri} />
+          <img src={harakiri} alt="logo"/>
         </div>
         <div className="clientLogoBox">
-          <img src={muzica} />
+          <img src={muzica} alt="logo"/>
         </div>
         <div className="clientLogoBox">
-          <img src={earth} />
+          <img src={earth} alt="logo"/>
         </div>
         <div className="clientLogoBox">
-          <img src={asgardia} />
+          <img src={asgardia} alt="logo"/>
         </div>
         <div className="clientLogoBox">
-          <img src={circle} />
+          <img src={circle} alt="logo"/>
         </div>
         <div className="clientLogoBox">
-          <img src={harakiri} />
+          <img src={harakiri} alt="logo"/>
         </div>
         <div className="clientLogoBox">
-          <img src={muzica} />
+          <img src={muzica} alt="logo"/>
         </div>
       </div>
 

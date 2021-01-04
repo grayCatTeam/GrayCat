@@ -10,7 +10,7 @@ function SmallTitle(props) {
         <div className={classes.container}>
           <span>
             {title}
-            <img src={tab} />
+            <img src={tab} alt="tab" />
           </span>
         </div>
         <div className={classes.number}>

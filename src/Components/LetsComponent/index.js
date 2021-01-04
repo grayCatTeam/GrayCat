@@ -9,7 +9,7 @@ function LetsComponent(props) {
       className="letsBox d-flex flex-column justify-content-center align-items-center"
       style={{ position: { position } }}
     >
-      <img src={lets} />
+      <img src={lets} alt="lets"/>
       <button className="btn btn-dark letsButton">{buttonName}</button>
     </div>
   );

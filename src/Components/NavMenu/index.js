@@ -1,5 +1,5 @@
 import './navmenu.css';
-import { Link } from 'react-router-dom';
+
 
 function Index() {
   return (
@@ -17,8 +17,7 @@ function Index() {
       <nav className="menu d-flex justify-content-center align-items-center">
         <ul>
           <li>
-            {' '}
-            <a to="/">Anasayfa</a>
+            <a>Anasayfa</a>
           </li>
           <li>Biz Kimiz ?</li>
           <li>Neler Yaparız ?</li>

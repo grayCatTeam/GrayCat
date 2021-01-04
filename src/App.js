@@ -6,12 +6,14 @@ import OurWorks from './Pages/OurWorks';
 import Casting from './Pages/Casting';
 import Academy from './Pages/Academy';
 import CastSingle from './Pages/CastSingle';
+import FormPage from './Pages/Form'
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
+          <Route path="/form" component={FormPage}/>
           <Route path="/castprofile" component={CastSingle} />
           <Route path="/academy" component={Academy} />
           <Route path="/casting" component={Casting} />
