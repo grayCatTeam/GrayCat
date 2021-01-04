@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/castprofile" component={Casting} />
+          <Route path="/castprofile" component={CastSingle} />
           <Route path="/academy" component={Academy} />
           <Route path="/casting" component={Casting} />
           <Route path="/works" component={OurWorks} />
