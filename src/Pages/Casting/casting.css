@@ -3,7 +3,15 @@
 }
 
 .popularCasting img {
-  width: 35%;
+  border-radius: 50px;
+}
+
+.swiper-container{
+  overflow: initial !important;
+}
+
+.swiper-pagination{
+  bottom:-50px !important;
 }
 
 .sliderBox {
@@ -11,13 +19,6 @@
   height: auto;
   min-height: 500px;
   background-color: #494949;
-}
-
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  min-height: 300px;
 }
 
 .title_front__3ljx8 {
