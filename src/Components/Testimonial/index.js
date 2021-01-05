@@ -1,4 +1,6 @@
-import './testimonial.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Mousewheel } from 'swiper';
+import TestimonialCard from '../TestimonialCard';
 import testimonial from '../../Assets/images/testimonialTitle.png';
 import earth from '../../Assets/images/earth.svg';
 import asgardia from '../../Assets/images/asgardia.svg';
@@ -6,8 +8,9 @@ import circle from '../../Assets/images/circle.svg';
 import harakiri from '../../Assets/images/harakiri.svg';
 import muzica from '../../Assets/images/muzica.svg';
 import 'swiper/swiper-bundle.min.css';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import TestimonialCard from '../TestimonialCard';
+import './testimonial.css';
+
+SwiperCore.use([Mousewheel]);
 
 function Testimonial() {
   return (
@@ -62,7 +65,11 @@ function Testimonial() {
         </div>
       </div>
 
-      <Swiper spaceBetween={300} slidesPerView={2}>
+      <Swiper
+        spaceBetween={-550}
+        slidesPerView={1}
+        mousewheel={true}
+      >
         <SwiperSlide>
           <TestimonialCard />
         </SwiperSlide>
@@ -72,12 +79,6 @@ function Testimonial() {
         <SwiperSlide>
           <TestimonialCard />
         </SwiperSlide>
-
-        {/*
-
-          fourth box doesnt seen.
-
-        */}
       </Swiper>
     </div>
   );
