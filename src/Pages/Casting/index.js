@@ -30,7 +30,6 @@ function Casting() {
         <Swiper
           effect="coverflow"
           grabCursor={true}
-          mousew
           centeredSlides={true}
           slidesPerView={5}
           coverflowEffect={{

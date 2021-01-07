@@ -1,6 +1,6 @@
-import {IconContext} from 'react-icons';
+import { IconContext } from 'react-icons';
 import './header.css';
-import {HiMenuAlt1} from 'react-icons/hi';
+import { HiMenuAlt1 } from 'react-icons/hi';
 import Index from '../NavMenu';
 
 function Header() {
@@ -24,9 +24,9 @@ function Header() {
             data-bs-toggle="modal"
             data-bs-target="#myModal"
           >
-            <IconContext.Provider value={{color: 'black', size: '2em'}}>
+            <IconContext.Provider value={{ color: 'black', size: '2em' }}>
               <div>
-                <HiMenuAlt1 style={{color: 'white'}}/>
+                <HiMenuAlt1 style={{ color: 'white' }} />
               </div>
             </IconContext.Provider>
           </button>
@@ -41,7 +41,7 @@ function Header() {
           <div className="modal-dialog modal-fullscreen">
             <div className="modal-content">
               <div className="modal-body">
-                <Index/>
+                <Index />
               </div>
             </div>
           </div>
