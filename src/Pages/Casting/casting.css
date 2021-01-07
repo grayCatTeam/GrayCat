@@ -3,7 +3,19 @@
 }
 
 .popularCasting img {
+<<<<<<< HEAD
     width: 35%;
+=======
+  border-radius: 50px;
+}
+
+.swiper-container{
+  overflow: initial !important;
+}
+
+.swiper-pagination{
+  bottom:-50px !important;
+>>>>>>> 06328422792998b32076d6cf2add062e1767ac18
 }
 
 .sliderBox {
@@ -13,6 +25,7 @@
     background-color: #494949;
 }
 
+<<<<<<< HEAD
 .swiper-slide {
     background-position: center;
     background-size: cover;
@@ -20,6 +33,8 @@
     min-height: 300px;
 }
 
+=======
+>>>>>>> 06328422792998b32076d6cf2add062e1767ac18
 .title_front__3ljx8 {
     left: 107px !important;
 }
