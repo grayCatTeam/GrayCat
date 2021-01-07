@@ -16,18 +16,16 @@ SwiperCore.use([EffectCoverflow, Mousewheel, Pagination]);
 function Casting() {
   return (
     <>
-      <div style={{backgroundColor: 'black'}}>
-        <Header/>
-        <ContentLanding/>
+      <div style={{ backgroundColor: 'black' }}>
+        <Header />
+        <ContentLanding />
       </div>
       <div className="popularCasting container">
-<<<<<<< HEAD
-        <img src={popularCasting}/>
+        <img src={popularCasting} />
         <div
           className="swiperArea"
-          style={{width: '100%', height: '600px', backgroundColor: 'black'}}
+          style={{ width: '100%', height: '600px', backgroundColor: 'black' }}
         ></div>
-=======
         <img src={popularCasting} />
         <Swiper
           effect="coverflow"
@@ -45,26 +43,51 @@ function Casting() {
           pagination={true}
           mousewheel={true}
         >
-          <SwiperSlide><img src={"https://picsum.photos/400/400?random=1"} /></SwiperSlide>
-          <SwiperSlide><img src={"https://picsum.photos/400/400?random=2"} /></SwiperSlide>
-          <SwiperSlide><img src={"https://picsum.photos/400/400?random=3"} /></SwiperSlide>
-          <SwiperSlide><img src={"https://picsum.photos/400/400?random=4"} /></SwiperSlide>
-          <SwiperSlide><img src={"https://picsum.photos/400/400?random=5"} /></SwiperSlide>
-          <SwiperSlide><img src={"https://picsum.photos/400/400?random=6"} /></SwiperSlide>
-          <SwiperSlide><img src={"https://picsum.photos/400/400?random=7"} /></SwiperSlide>
-          <SwiperSlide><img src={"https://picsum.photos/400/400?random=8"} /></SwiperSlide>
-          <SwiperSlide><img src={"https://picsum.photos/400/400?random=9"} /></SwiperSlide>
-          <SwiperSlide><img src={"https://picsum.photos/400/400?random=10"} /></SwiperSlide>
-          <SwiperSlide><img src={"https://picsum.photos/400/400?random=11"} /></SwiperSlide>
-          <SwiperSlide><img src={"https://picsum.photos/400/400?random=12"} /></SwiperSlide>
-          <SwiperSlide><img src={"https://picsum.photos/400/400?random=13"} /></SwiperSlide>
+          <SwiperSlide>
+            <img src={'https://picsum.photos/400/400?random=1'} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={'https://picsum.photos/400/400?random=2'} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={'https://picsum.photos/400/400?random=3'} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={'https://picsum.photos/400/400?random=4'} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={'https://picsum.photos/400/400?random=5'} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={'https://picsum.photos/400/400?random=6'} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={'https://picsum.photos/400/400?random=7'} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={'https://picsum.photos/400/400?random=8'} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={'https://picsum.photos/400/400?random=9'} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={'https://picsum.photos/400/400?random=10'} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={'https://picsum.photos/400/400?random=11'} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={'https://picsum.photos/400/400?random=12'} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={'https://picsum.photos/400/400?random=13'} />
+          </SwiperSlide>
         </Swiper>
->>>>>>> 06328422792998b32076d6cf2add062e1767ac18
       </div>
 
       <div className="castContainer container">
-        <Title frontSide="Cast" backSide="Cast"/>
-        <p style={{padding: '2rem 15rem 2rem 6rem', color: 'black'}}>
+        <Title frontSide="Cast" backSide="Cast" />
+        <p style={{ padding: '2rem 15rem 2rem 6rem', color: 'black' }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
           sollicitudin purus tortor, et congue ante pellentesque vitae. Aliquam
           pellentesque diam fringilla ipsum semper, sit amet convallis purus
@@ -73,14 +96,14 @@ function Casting() {
           tortor sapien et odio. Nullam nunc sapien, congue nec aliquam nec,
           pulvinar ut sapien.
         </p>
-        <GaleryComponent/>
+        <GaleryComponent />
       </div>
 
       <div className="letsContainer">
-        <LetsComponent buttonName="CONTACT"/>
+        <LetsComponent buttonName="CONTACT" />
       </div>
 
-      <Footer/>
+      <Footer />
     </>
   );
 }

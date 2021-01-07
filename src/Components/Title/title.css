@@ -1,18 +1,18 @@
 .strokeTitle {
-    text-align: center;
-    font-size: 54px;
-    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #ffffff59;
+  text-align: center;
+  font-size: 54px;
+  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff59;
 }
 
 .strokeTitle::after {
-    content: attr(data-title);
-    font-size: 32px;
-    color: white;
-    text-align: center;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff;
-    margin: -13rem;
+  content: attr(data-title);
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  margin: -13rem;
 }

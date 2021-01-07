@@ -1,59 +1,52 @@
 .popularCasting {
-    padding: 5rem 0;
+  padding: 5rem 0;
 }
 
 .popularCasting img {
-<<<<<<< HEAD
-    width: 35%;
-=======
   border-radius: 50px;
 }
 
-.swiper-container{
+.swiper-container {
   overflow: initial !important;
 }
 
-.swiper-pagination{
-  bottom:-50px !important;
->>>>>>> 06328422792998b32076d6cf2add062e1767ac18
+.swiper-pagination {
+  bottom: -50px !important;
 }
 
 .sliderBox {
-    width: 100%;
-    height: auto;
-    min-height: 500px;
-    background-color: #494949;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  background-color: #494949;
 }
 
-<<<<<<< HEAD
 .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    min-height: 300px;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  min-height: 300px;
 }
 
-=======
->>>>>>> 06328422792998b32076d6cf2add062e1767ac18
 .title_front__3ljx8 {
-    left: 107px !important;
+  left: 107px !important;
 }
 
 .gridBox {
-    background-color: black;
-    height: 20rem;
+  background-color: black;
+  height: 20rem;
 }
 
 .gridBox img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .buttonContainer {
-    padding: 3rem;
+  padding: 3rem;
 }
 
 .letsContainer {
-    min-height: 800px;
+  min-height: 800px;
 }

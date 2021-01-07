@@ -8,81 +8,72 @@ import circle from '../../Assets/images/circle.svg';
 import harakiri from '../../Assets/images/harakiri.svg';
 import muzica from '../../Assets/images/muzica.svg';
 import 'swiper/swiper-bundle.min.css';
-<<<<<<< HEAD
-import {Swiper, SwiperSlide} from 'swiper/react';
-import TestimonialCard from '../TestimonialCard';
-=======
 import './testimonial.css';
 
 SwiperCore.use([Mousewheel]);
->>>>>>> 06328422792998b32076d6cf2add062e1767ac18
 
 function Testimonial() {
   return (
     <div className="container-fluid testimonialContainer">
-      <img src={testimonial}/>
+      <img src={testimonial} />
 
       <div className="clientLogo container">
         <div className="clientLogoBox">
-          <img src={earth} alt="earth"/>
+          <img src={earth} alt="earth" />
         </div>
         <div className="clientLogoBox">
-          <img src={asgardia} alt="asgardia"/>
+          <img src={asgardia} alt="asgardia" />
         </div>
         <div className="clientLogoBox">
-          <img src={circle} alt="logo"/>
+          <img src={circle} alt="logo" />
         </div>
         <div className="clientLogoBox">
-          <img src={harakiri} alt="logo"/>
+          <img src={harakiri} alt="logo" />
         </div>
         <div className="clientLogoBox">
-          <img src={muzica} alt="logo"/>
+          <img src={muzica} alt="logo" />
         </div>
         <div className="clientLogoBox">
-          <img src={earth} alt="logo"/>
+          <img src={earth} alt="logo" />
         </div>
         <div className="clientLogoBox">
-          <img src={asgardia} alt="logo"/>
+          <img src={asgardia} alt="logo" />
         </div>
         <div className="clientLogoBox">
-          <img src={circle} alt="logo"/>
+          <img src={circle} alt="logo" />
         </div>
         <div className="clientLogoBox">
-          <img src={harakiri} alt="logo"/>
+          <img src={harakiri} alt="logo" />
         </div>
         <div className="clientLogoBox">
-          <img src={muzica} alt="logo"/>
+          <img src={muzica} alt="logo" />
         </div>
         <div className="clientLogoBox">
-          <img src={earth} alt="logo"/>
+          <img src={earth} alt="logo" />
         </div>
         <div className="clientLogoBox">
-          <img src={asgardia} alt="logo"/>
+          <img src={asgardia} alt="logo" />
         </div>
         <div className="clientLogoBox">
-          <img src={circle} alt="logo"/>
+          <img src={circle} alt="logo" />
         </div>
         <div className="clientLogoBox">
-          <img src={harakiri} alt="logo"/>
+          <img src={harakiri} alt="logo" />
         </div>
         <div className="clientLogoBox">
-          <img src={muzica} alt="logo"/>
+          <img src={muzica} alt="logo" />
         </div>
       </div>
 
-      <Swiper
-        spaceBetween={-550}
-        slidesPerView={1}
-        mousewheel={true}
-      >
+      <Swiper spaceBetween={-550} slidesPerView={1} mousewheel={true}>
         <SwiperSlide>
-          <TestimonialCard/>
+          <TestimonialCard />
         </SwiperSlide>
         <SwiperSlide>
-          <TestimonialCard/>
+          <TestimonialCard />
         </SwiperSlide>
         <SwiperSlide>
-          <TestimonialCard/>
+          <TestimonialCard />
         </SwiperSlide>
       </Swiper>
     </div>
