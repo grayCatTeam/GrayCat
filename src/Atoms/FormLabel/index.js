@@ -2,7 +2,7 @@ import classses from "./formLabel.module.css"
 
 
 const FormLabel = (props) => {
-  return(
+  return (
 
     <>
 

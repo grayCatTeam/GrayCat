@@ -12,32 +12,32 @@ function Works() {
       <div className="row d-flex flex-wrap flex">
         <div className="col-xl-4 col-md-6 col-sm-1 workBox">
           <h2>ORGANİZATION</h2>
-          <img src={organization} style={{ width: '100%', height: '335px' }} />
+          <img src={organization} style={{width: '100%', height: '335px'}}/>
         </div>
         <div className="col-xl-4 col-md-6 col-sm-1 workBox">
           <h2>
-            TV <br />
+            TV <br/>
             PRODUCTION
           </h2>
-          <img src={tvProduction} style={{ width: '100%', height: '335px' }} />
+          <img src={tvProduction} style={{width: '100%', height: '335px'}}/>
         </div>
         <div className="col-xl-4 col-md-6 col-sm-1 workBox">
           <h2>MUSIC</h2>
-          <img src={music} style={{ width: '100%', height: '335px' }} />
+          <img src={music} style={{width: '100%', height: '335px'}}/>
         </div>
         <div className="col-xl-4 col-md-6 col-sm-1 workBox">
           <h2>CASTING</h2>
-          <img src={casting} style={{ width: '100%', height: '335px' }} />
+          <img src={casting} style={{width: '100%', height: '335px'}}/>
         </div>
         <div className="col-xl-4 col-md-6 col-sm-1 workBox">
           <h2>BRANDING</h2>
-          <img src={branding} style={{ width: '100%', height: '335px' }} />
+          <img src={branding} style={{width: '100%', height: '335px'}}/>
         </div>
         <div className="col-xl-4 col-md-6 col-sm-1 workBox">
           <h2>
-            FILM <br /> PRODUCTION
+            FILM <br/> PRODUCTION
           </h2>
-          <img src={film} style={{ width: '100%', height: '335px' }} />
+          <img src={film} style={{width: '100%', height: '335px'}}/>
         </div>
       </div>
     </div>

@@ -22,8 +22,8 @@ function GaleryComponent() {
           <div className="col-md-4 gridBox"></div>
         </div>
         <div className="buttonContainer d-flex justify-content-evenly align-items-center">
-          <PrewButton />
-          <NextButton />
+          <PrewButton/>
+          <NextButton/>
         </div>
       </div>
     </>

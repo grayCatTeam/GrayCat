@@ -1,17 +1,17 @@
 .letsBox {
-  background-color: white;
-  border: 1px solid black;
-  width: 525px;
-  height: 480px;
-  border-radius: 20px;
-  position: absolute;
-  margin-left: 10%;
-  margin-top: 5%;
+    background-color: white;
+    border: 1px solid black;
+    width: 525px;
+    height: 480px;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 5%;
 }
 
 .letsButton {
-  width: 330px;
-  height: 90px;
-  border-radius: 20px !important;
-  margin-top: 2rem;
+    width: 330px;
+    height: 90px;
+    border-radius: 20px !important;
+    margin-top: 2rem;
 }

@@ -1,5 +1,5 @@
 import classes from './nextButton.module.css';
-import { FaChevronRight } from 'react-icons/fa';
+import {FaChevronRight} from 'react-icons/fa';
 
 function NextButton() {
   return (
@@ -8,7 +8,7 @@ function NextButton() {
         <div className={classes.rectangle}></div>
         <h3 className={classes.next}>NEXT</h3>
         <p className={classes.icon}>
-          <FaChevronRight />
+          <FaChevronRight/>
         </p>
       </div>
     </>

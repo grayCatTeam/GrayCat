@@ -1,33 +1,33 @@
 .academyInfo {
-  width: 80%;
-  margin: 0 auto;
-  min-height: 1000px;
-  background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 1000px;
+    background-color: white;
 }
 
 .imageContainer {
-  position: relative;
-  padding: 5rem 0;
-  display: flex;
-  justify-content: center;
-  min-height: 700px;
+    position: relative;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    min-height: 700px;
 }
 
 .imageContainer img {
-  position: absolute;
-  height: 560px;
+    position: absolute;
+    height: 560px;
 }
 
 .firstImage {
-  left: 160px;
-  top: 48px;
-  opacity: 0.8;
+    left: 160px;
+    top: 48px;
+    opacity: 0.8;
 }
 
 .textContainer {
-  padding: 0 15rem;
+    padding: 0 15rem;
 }
 
 .letsContainer {
-  height: 800px;
+    height: 800px;
 }

@@ -5,7 +5,7 @@ function Content() {
   return (
     <div className="contentwrapper">
       <div className="strokeTitle">
-        <img src={wecreatefuturewithreact} alt="Logo" />
+        <img src={wecreatefuturewithreact} alt="Logo"/>
       </div>
       <div className="text">
         <p>

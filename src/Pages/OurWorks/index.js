@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import {useState, useEffect} from 'react';
 import './ourworks.css';
 import Header from '../../Components/Header';
 import ContentLanding from '../../Components/ContentLanding';
@@ -7,7 +7,7 @@ import Footer from '../../Components/Footer';
 import work from '../../Assets/images/work.svg';
 import 'rc-pagination/assets/index.css';
 import LetsComponent from '../../Components/LetsComponent';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import {Swiper, SwiperSlide} from 'swiper/react';
 import SlideTestimonial from '../../Components/SlideTestimonial/slideTestimonial';
 
 const portfolio = [
@@ -83,12 +83,12 @@ function OurWorks() {
 
   return (
     <div>
-      <div style={{ backgroundColor: 'black' }}>
-        <Header />
-        <ContentLanding />
+      <div style={{backgroundColor: 'black'}}>
+        <Header/>
+        <ContentLanding/>
       </div>
       <div className="container ourTitles text-start">
-        <img src={varierty} width="40%" style={{ margin: '5rem 5rem' }} />
+        <img src={varierty} width="40%" style={{margin: '5rem 5rem'}}/>
 
         <div className="container d-flex flex-wrap justify-content-center">
           <div className="ourTitleBox">Senaryo</div>
@@ -104,7 +104,7 @@ function OurWorks() {
       </div>
       <div className="Portfolio container d-flex">
         <div className="filterContainer">
-          <img src={work} />
+          <img src={work}/>
           <div className="filterList">
             <ul>
               <li>
@@ -186,24 +186,24 @@ function OurWorks() {
         </div>
       </div>
       <div className="letsComponentWrapper">
-        <LetsComponent buttonName="CONTACT" position={'absolute'} />
+        <LetsComponent buttonName="CONTACT" position={'absolute'}/>
       </div>
 
       <div className="customerReviewContainer">
         <Swiper spaceBetween={500} slidesPerView={2}>
           <SwiperSlide>
-            <SlideTestimonial />
+            <SlideTestimonial/>
           </SwiperSlide>
           <SwiperSlide>
-            <SlideTestimonial />
+            <SlideTestimonial/>
           </SwiperSlide>
           <SwiperSlide>
-            <SlideTestimonial />
+            <SlideTestimonial/>
           </SwiperSlide>
         </Swiper>
       </div>
 
-      <Footer />
+      <Footer/>
     </div>
   );
 }

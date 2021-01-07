@@ -1,7 +1,7 @@
 import './title.css';
 
 function Title(props) {
-  const { text } = props;
+  const {text} = props;
 
   return (
     <h1 className="strokeTitle" data-title={text}>

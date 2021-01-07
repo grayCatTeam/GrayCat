@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 
 .header {
     background-color: black;
@@ -5,21 +10,86 @@
 }
 
 .formBox {
-    width: 100%;
-    padding: 0 10rem;
-    margin: 2rem 0;
+    width: 60%;
+    padding: 0;
+    margin: 0 auto !important;
 }
 
 .formBox label {
     margin: 1rem 0;
 }
 
-form {
-    width: 80%;
-    margin: 0 auto;
-
-}
 
 .formBox input {
+    border: #d7d7d7 1px solid;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.formBox input::placeholder {
+    color: #bebebe;
+}
+
+.formBoxMini input {
+    border: #e3e3e3 1px solid;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.formBoxMini {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+    margin: 3rem 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 26px;
 
 }
+
+.plusButton {
+    border: 0.2px #cacaca solid;
+    background-color: #a4252500;
+    margin-top: 5.5rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: 0.3s all ease-in-out;
+}
+
+.plusButton:hover {
+    background-color: black;
+}
+
+.plusButton:hover * {
+    position: relative;
+    color: white;
+}
+
+.addEdu {
+    width: 100%;
+    margin: 3rem 0;
+    padding: 1rem;
+    border: 0.2px #cacaca solid;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0);
+    transition: 0.3s all ease-in-out;
+    border-radius: 5px;
+}
+
+.addEdu:hover {
+    background-color: black;
+}
+
+.addEdu:hover * {
+    position: relative;
+    color: white;
+}
+

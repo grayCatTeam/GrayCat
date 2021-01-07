@@ -2,7 +2,7 @@ import classes from './smallTitle.module.css';
 import tab from '../../Assets/images/tab.svg';
 
 function SmallTitle(props) {
-  const { title, content } = props;
+  const {title, content} = props;
 
   return (
     <>
@@ -10,7 +10,7 @@ function SmallTitle(props) {
         <div className={classes.container}>
           <span>
             {title}
-            <img src={tab} alt="tab" />
+            <img src={tab} alt="tab"/>
           </span>
         </div>
         <div className={classes.number}>

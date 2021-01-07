@@ -5,4 +5,4 @@ const apiClient = axios.create({
   baseURL: config.apiUrl,
 });
 
-export { apiClient };
+export {apiClient};

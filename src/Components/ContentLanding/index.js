@@ -6,8 +6,8 @@ function ContentLanding(props) {
     <div className="container d-flex landingWrap align-items-center justify-content-center">
       <div>
         <img src={whorwe} ekip/>
-        <h1 style={{ color: 'white' }}>
-          If it is brilliant, <br />
+        <h1 style={{color: 'white'}}>
+          If it is brilliant, <br/>
           it will shine
         </h1>
       </div>

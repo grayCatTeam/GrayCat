@@ -1,5 +1,5 @@
 import './footer.css';
-import { FaTwitter, FaInstagram, FaVimeoV, FaFacebookF } from 'react-icons/fa';
+import {FaTwitter, FaInstagram, FaVimeoV, FaFacebookF} from 'react-icons/fa';
 import RainTitle from '../../Assets/images/footerTitle.svg';
 
 function Footer() {
@@ -47,10 +47,10 @@ function Footer() {
           <h6>Social Media</h6>
         </div>
         <div className="socialIcon">
-          <FaTwitter />
-          <FaInstagram />
-          <FaVimeoV />
-          <FaFacebookF />
+          <FaTwitter/>
+          <FaInstagram/>
+          <FaVimeoV/>
+          <FaFacebookF/>
         </div>
       </div>
     </div>

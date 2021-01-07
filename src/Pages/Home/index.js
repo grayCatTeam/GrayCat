@@ -11,15 +11,15 @@ function Home() {
     <div className="container-fluid-xl homeWrapper">
       <div className="landing">
         <div className="overlay"></div>
-        <Header />
+        <Header/>
         <video autoPlay loop muted className="video">
-          <source src={home} type="video/mp4" />
+          <source src={home} type="video/mp4"/>
         </video>
       </div>
-      <Content />
-      <Works />
-      <Testimonial />
-      <Footer />
+      <Content/>
+      <Works/>
+      <Testimonial/>
+      <Footer/>
     </div>
   );
 }

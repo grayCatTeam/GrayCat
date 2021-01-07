@@ -5,7 +5,7 @@ function SlideTestimonial() {
   return (
     <div className="wrapSlide">
       <div className="outerSlide">
-        <img src={background} />
+        <img src={background}/>
         <div className="insideSlide"></div>
       </div>
     </div>

@@ -12,23 +12,23 @@ import Footer from '../../Components/Footer';
 function Academy() {
   return (
     <>
-      <div style={{ backgroundColor: 'black' }}>
-        <Header />
-        <ContentLanding />
+      <div style={{backgroundColor: 'black'}}>
+        <Header/>
+        <ContentLanding/>
       </div>
 
       <div className={classes.academyInfo}>
-        <Title frontSide="Academy" backSide="Academy" />
+        <Title frontSide="Academy" backSide="Academy"/>
         <div className={classes.imageContainer}>
           <img
             src={academyInfo}
             width="1080px"
             className={classes.firstImage}
           />
-          <img src={academyInfo} width="1080px" />
+          <img src={academyInfo} width="1080px"/>
         </div>
         <div className={classes.textContainer}>
-          <p style={{ padding: '2rem 0' }}>
+          <p style={{padding: '2rem 0'}}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius
             tortor nec ante commodo, lobortis tristique sem egestas. Maecenas
             gravida condimentum lorem sit amet facilisis. Mauris iaculis in
@@ -71,10 +71,10 @@ function Academy() {
       </div>
 
       <div className={classes.letsContainer}>
-        <LetsComponent buttonName="CREATE ACCOUNT" />
+        <LetsComponent buttonName="CREATE ACCOUNT"/>
       </div>
 
-      <Footer />
+      <Footer/>
     </>
   );
 }

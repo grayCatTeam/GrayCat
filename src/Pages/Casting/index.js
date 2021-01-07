@@ -13,21 +13,21 @@ import GaleryComponent from '../../Components/GaleryComponent';
 function Casting() {
   return (
     <>
-      <div style={{ backgroundColor: 'black' }}>
-        <Header />
-        <ContentLanding />
+      <div style={{backgroundColor: 'black'}}>
+        <Header/>
+        <ContentLanding/>
       </div>
       <div className="popularCasting container">
-        <img src={popularCasting} />
+        <img src={popularCasting}/>
         <div
           className="swiperArea"
-          style={{ width: '100%', height: '600px', backgroundColor: 'black' }}
+          style={{width: '100%', height: '600px', backgroundColor: 'black'}}
         ></div>
       </div>
 
       <div className="castContainer container">
-        <Title frontSide="Cast" backSide="Cast" />
-        <p style={{ padding: '2rem 15rem 2rem 6rem', color: 'black' }}>
+        <Title frontSide="Cast" backSide="Cast"/>
+        <p style={{padding: '2rem 15rem 2rem 6rem', color: 'black'}}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
           sollicitudin purus tortor, et congue ante pellentesque vitae. Aliquam
           pellentesque diam fringilla ipsum semper, sit amet convallis purus
@@ -36,14 +36,14 @@ function Casting() {
           tortor sapien et odio. Nullam nunc sapien, congue nec aliquam nec,
           pulvinar ut sapien.
         </p>
-        <GaleryComponent />
+        <GaleryComponent/>
       </div>
 
       <div className="letsContainer">
-        <LetsComponent buttonName="CONTACT" />
+        <LetsComponent buttonName="CONTACT"/>
       </div>
 
-      <Footer />
+      <Footer/>
     </>
   );
 }
