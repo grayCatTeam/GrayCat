@@ -8,12 +8,14 @@ import Academy from './Pages/Academy';
 import CastSingle from './Pages/CastSingle';
 import FormPage from './Pages/Form';
 import ProductPage from './Pages/ProductPage'
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
+          <Route path="/contact" component={Contact}/>
           <Route path="/product" component={ProductPage}/>
           <Route path="/form" component={FormPage}/>
           <Route path="/castprofile" component={CastSingle}/>

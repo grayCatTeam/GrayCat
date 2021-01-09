@@ -1,0 +1,46 @@
+.wrapper {
+  margin: 10rem;
+  width: 55%;
+  padding: 3rem 2rem;
+  border-radius: 5px;
+  position: relative;
+}
+
+.wrapper::before{
+  content: "";
+  width: 100%;
+  min-height: 100%;
+  border: white solid 2px;
+  position: absolute;
+  left: 35px;
+  top: -35px;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 15px !important;
+}
+
+input {
+  border: none;
+  border-bottom: 2px #e0e0e0 solid;
+  height: 50px;
+  width: 80%;
+}
+
+input[name="subject"] {
+  width: 97%;
+}
+
+textarea{
+  width: 97%;
+  border-color: #cacaca;
+  border-radius: 5px;
+}
+
+.sendButton {
+  width: 97%;
+  border-style: none;
+  border-radius: 5px;
+}
+

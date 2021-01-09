@@ -1,0 +1,27 @@
+.bigTitle {
+  position: relative;
+  width:100% ;
+  min-height: 400px;
+  margin-top :5rem;
+}
+
+
+.title {
+  font-size: 160px;
+  color: white;
+  position: relative;
+  z-index: 2;
+  top: 6rem;
+}
+
+.backTitle {
+  font-size: 220px;
+  -webkit-text-stroke-color: #515151;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  left: 610px;
+
+}

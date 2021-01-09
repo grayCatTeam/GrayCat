@@ -64,6 +64,11 @@ function Index() {
               Product
             </Link>
           </li>
+          <li>
+            <Link to="/contact" onClick={closeModal}>
+              Contact
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
