@@ -6,10 +6,6 @@
   border-radius: 50px;
 }
 
-.swiper-container {
-  overflow: initial !important;
-}
-
 .swiper-pagination {
   bottom: -50px !important;
 }
