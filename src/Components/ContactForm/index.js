@@ -27,16 +27,19 @@ function ContactForm() {
             </div>
             <div className={`col-md-6 d-flex align-items-center justify-content-between`}>
               <FormLabel label={"E Mail"}/>
-              <Field/>
+              <Field
+                id="email"
+                name="email"
+                type="email"
+              />
             </div>
           </div>
           <div className={`row d-flex justify-content-center mb-3`}>
             <div className={`col-md-1 d-flex align-items-center`}>
               <FormLabel label={"Subject"}/>
-
             </div>
             <div className={`col-md-11 d-flex align-items-center`}>
-              <Field name="subject"/>
+              <Field name="subject" type="text"/>
             </div>
 
           </div>
