@@ -4,6 +4,7 @@
   padding: 3rem 2rem;
   border-radius: 5px;
   position: relative;
+  z-index: 0;
 
 }
 

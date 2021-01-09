@@ -30,7 +30,6 @@ function ContactForm() {
               <Field
                 id="email"
                 name="email"
-                placeholder="jane@acme.com"
                 type="email"
               />
             </div>
