@@ -1,24 +1,23 @@
 .title {
-  width: 300px;
-  height: 300px;
-  box-sizing: border-box;
   position: relative;
-  padding: 5rem;
+  padding-top: 200px;
+  padding-bottom: 100px;
 }
 
 .back {
-  position: absolute;
-  font-size: 11.3rem;
   color: black;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  font-family: Impact;
+  -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #3e3e3e;
+  font-size: 100px;
 }
 
 .front {
   position: absolute;
-  left: 99px;
-  bottom: 9px;
+  font-family: Impact;
   color: #050505;
-  font-size: 8rem;
+  left: -10px;
+  top: 250px;
+  font-size: 85px;
 }

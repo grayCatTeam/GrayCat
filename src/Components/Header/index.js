@@ -1,48 +1,56 @@
-import { IconContext } from 'react-icons';
-import './header.css';
-import { HiMenuAlt1 } from 'react-icons/hi';
 import Index from '../NavMenu';
+import classes from './header.module.css';
 
 function Header() {
   return (
-    <div className="container-fluid">
-      <div className="headerBar d-flex justify-content-between align-items-center">
-        <h4>RainMedia.</h4>
+    <div>
+      <nav className={`navbar navbar-light ${classes.lightTransparentBg}`}>
+        <div className="container">
+          <a className="navbar-brand text-white">RainMedia.</a>
+          <div className="d-flex">
+            <div className="me-3">
+              <button className="btn btn-outline-light bg-transparent border-0">
+                EN
+              </button>
+              <button className="btn btn-outline-light bg-transparent border-0 ms-1">
+                TR
+              </button>
+            </div>
 
-        <div className="buttonGroup d-flex justify-content-center align-items-center">
-          <div className="lang">
-            <button className="btn">
-              <strong>EN</strong>
-            </button>
-            <button className="btn">
-              <strong>TR</strong>
+            <button
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#menu"
+              className="btn btn-outline-light bg-transparent border-0"
+            >
+              <svg
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                ></path>
+              </svg>
             </button>
           </div>
-
-          <button
-            type="button"
-            data-bs-toggle="modal"
-            data-bs-target="#myModal"
-          >
-            <IconContext.Provider value={{ color: 'black', size: '2em' }}>
-              <div>
-                <HiMenuAlt1 style={{ color: 'white' }} />
-              </div>
-            </IconContext.Provider>
-          </button>
         </div>
-
-        <div
-          className="modal fade"
-          id="myModal"
-          aria-labelledby="exampleModalFullscreenLabel"
-          aria-hidden="true"
-        >
-          <div className="modal-dialog modal-fullscreen">
-            <div className="modal-content">
-              <div className="modal-body">
-                <Index />
-              </div>
+      </nav>
+      <div
+        className="modal fade"
+        id="menu"
+        aria-labelledby="menu"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-fullscreen">
+          <div className="modal-content">
+            <div className="modal-body">
+              <Index />
             </div>
           </div>
         </div>

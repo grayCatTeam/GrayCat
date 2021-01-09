@@ -1,3 +1,7 @@
+.img {
+  height: 100%;
+  width: 100%;
+}
 .workBox {
   height: 335px;
   background-color: black;

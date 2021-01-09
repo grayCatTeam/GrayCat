@@ -5,8 +5,8 @@ import { Modal } from 'bootstrap';
 function Index() {
   const closeModal = () => {
     // TODO PROPS REF
-    const myModalEl = document.getElementById('myModal');
-    const modal = Modal.getInstance(myModalEl);
+    const menu = document.getElementById('menu');
+    const modal = Modal.getInstance(menu);
     modal.toggle();
   };
 

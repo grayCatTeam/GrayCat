@@ -1,21 +1,22 @@
-import './content.css';
-import wecreatefuturewithreact from '../../Assets/images/wecreatefuturewithrain.svg';
+import Title from './../../Atoms/Title';
+import classes from './content.module.css';
 
 function Content() {
   return (
-    <div className="contentwrapper">
-      <div className="strokeTitle">
-        <img src={wecreatefuturewithreact} alt="Logo"/>
-      </div>
-      <div className="text">
-        <p>
+    <div className="row g-0 mb-5">
+      <div className="col-12 mb-5 padding200">
+        <Title
+          backSide="WE CREATE FUTURE WITH RAIN"
+          frontSide="WE CREATE FUTURE WITH RAIN"
+        />
+        <span className="fs-4 mb-5">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry'sstandard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book.the industry'sstandard dummy
           text ever since the 1500s, when an unknown printer took a galley of
           type and scrambled it to make a type specimen.
-        </p>
+        </span>
       </div>
     </div>
   );
