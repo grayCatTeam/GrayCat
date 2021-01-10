@@ -9,7 +9,7 @@ function TestimonialCard() {
   return (
 
     <>
-      <div className={`card w-50 bg-dark border-1 border-secondary p-3 mx-auto ${classes.card}`}>
+      <div className={`card w-50 border-1 border-secondary p-3 mx-auto ${classes.card}`}>
         <div className="card-body row d-flex">
           <div className="col-xl-4 col-sm-12 d-flex justify-content-center align-items-center flex-column">
             <img className={`rounded w-75`} src={customer} />

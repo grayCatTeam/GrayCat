@@ -8,8 +8,6 @@ import SmallTitle from "../../Atoms/SmallTitle";
 import video from '../../Assets/video/home.mp4';
 
 
-
-
 function ProductPage() {
   return (
     <>
