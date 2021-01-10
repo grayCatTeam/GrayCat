@@ -5,16 +5,14 @@ import classes from "./bigtitle.module.css"
 const BigTitle= () => {
 
   return(
-    <div className={"text-center mx-auto"}>
-
-      <div className={classes.bigTitle}>
-        <p className={classes.backTitle}>Say Hi!</p>
-        <h1 className={classes.title}>Say Hi!</h1>
+      <div className={`container d-flex justify-content-center`}>
+        <div className={`w-100 position-relative`} style={{minHeight:"400px"}}>
+           <p className={`position-absolute text-white top-50 start-50 translate-middle  ${classes.back}`}>Say Hi!</p>
+           <p className={`position-absolute text-white top-50 start-50 translate-middle mt-3 ${classes.front}`}>Say Hi!</p>
+        </div>
       </div>
 
 
-
-    </div>
   )
 }
 

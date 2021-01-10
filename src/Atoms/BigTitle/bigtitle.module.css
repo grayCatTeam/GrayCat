@@ -1,27 +1,55 @@
-.bigTitle {
-  position: relative;
-  width:100% ;
-  min-height: 400px;
-  margin-top :5rem;
+
+.front {
+  font-size: 10rem;
 }
 
-
-.title {
-  font-size: 160px;
-  color: white;
-  position: relative;
-  z-index: 2;
-  top: 6rem;
-}
-
-.backTitle {
-  font-size: 220px;
+.back {
+  font-size: 13.75rem;
   -webkit-text-stroke-color: #515151;
   -webkit-text-stroke-width: 1px;
   -webkit-text-fill-color: transparent;
-  position: absolute;
-  top: 0px;
-  z-index: 1;
-  left: 610px;
+}
+
+@media only screen and (max-width: 1400px){
+  .front {
+    font-size: 6rem;
+  }
+
+  .back {
+    font-size: 8rem;
+  }
+
+}
+
+@media only screen and (max-width: 992px){
+  .front {
+    font-size: 4rem;
+  }
+
+  .back {
+    font-size: 6rem;
+  }
+
+}
+
+@media only screen and (max-width: 778px){
+  .front {
+    font-size: 3rem;
+  }
+
+  .back {
+    font-size: 5rem;
+  }
+
+}
+
+@media only screen and (max-width: 510px){
+  .front {
+    font-size: 1rem;
+  }
+
+  .back {
+    font-size: 3rem;
+  }
 
 }
