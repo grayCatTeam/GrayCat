@@ -1,22 +1,16 @@
-import classes from './smallTitle.module.css';
-import tab from '../../Assets/images/tab.svg';
+/*import assets*/
+import tab from '../../Assets/images/tabWhite.png';
 
 function SmallTitle(props) {
-  const {title, content} = props;
+
+  const {title} = props;
 
   return (
     <>
-      <div className={classes.wrapper}>
-        <div className={classes.container}>
-          <span>
-            {title}
-            <img src={tab} alt="tab"/>
-          </span>
-        </div>
-        <div className={classes.number}>
-          <p>{content}</p>
-        </div>
-      </div>
+
+        <h3 className={`mb-0 fs-4`}>{title}</h3>
+        <img src={tab} className={`d-inline`} alt="tab"/>
+
     </>
   );
 }
