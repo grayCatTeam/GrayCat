@@ -5,8 +5,10 @@ function Header() {
   return (
     <div>
       <nav className={`navbar navbar-light ${classes.lightTransparentBg}`}>
-        <div className="container">
-          <a className="navbar-brand text-white">RainMedia.</a>
+        <div className="container-fluid px-5">
+          <a className="navbar-brand text-white" href="/">
+            RainMedia.
+          </a>
           <div className="d-flex">
             <div className="me-3">
               <button className="btn btn-outline-light bg-transparent border-0">
@@ -49,7 +51,7 @@ function Header() {
       >
         <div className="modal-dialog modal-fullscreen">
           <div className="modal-content">
-            <div className="modal-body">
+            <div className="modal-body p-0">
               <Index />
             </div>
           </div>

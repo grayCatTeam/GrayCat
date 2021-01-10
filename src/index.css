@@ -21,13 +21,27 @@ a {
   text-decoration: none;
 }
 
-.padding200 {
+.content-padding {
   padding-right: 200px !important;
   padding-left: 200px !important;
 }
 
+@media only screen and (max-width: 992px) {
+  .content-padding {
+    padding-right: 100px !important;
+    padding-left: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content-padding {
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+  }
+}
+
 @media only screen and (max-width: 576px) {
-  .padding200 {
+  .content-padding {
     padding-right: 20px !important;
     padding-left: 20px !important;
   }

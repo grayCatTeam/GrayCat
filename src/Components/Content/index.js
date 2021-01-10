@@ -1,13 +1,12 @@
 import Title from './../../Atoms/Title';
-import classes from './content.module.css';
 
 function Content() {
   return (
     <div className="row g-0 mb-5">
-      <div className="col-12 mb-5 padding200">
+      <div className="col-12 mb-5 content-padding">
         <Title
-          backSide="WE CREATE FUTURE WITH RAIN"
-          frontSide="WE CREATE FUTURE WITH RAIN"
+          backSide="WE CREATE FUTURE<br> WITH RAIN"
+          frontSide="WE CREATE FUTURE<br> WITH RAIN"
         />
         <span className="fs-4 mb-5">
           Lorem Ipsum is simply dummy text of the printing and typesetting

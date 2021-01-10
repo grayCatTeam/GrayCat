@@ -21,3 +21,54 @@
   top: 250px;
   font-size: 85px;
 }
+
+@media only screen and (max-width: 992px) {
+  .title {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+
+  .back {
+    font-size: 85px;
+  }
+
+  .front {
+    left: -10px;
+    top: 250px;
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+
+  .back {
+    font-size: 65px;
+  }
+
+  .front {
+    left: -5px;
+    top: 185px;
+    font-size: 55px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .title {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .back {
+    font-size: 50px;
+  }
+
+  .front {
+    left: -3px;
+    top: 130px;
+    font-size: 40px;
+  }
+}

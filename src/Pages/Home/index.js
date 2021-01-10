@@ -1,13 +1,14 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Mousewheel } from 'swiper';
 import Header from '../../Components/Header';
 import Content from '../../Components/Content';
 import Footer from '../../Components/Footer';
 import Works from '../../Components/Works';
 import Testimonial from '../../Components/Testimonial';
+import TestimonialCard from '../../Components/TestimonialCard';
 import home from '../../Assets/video/home.mp4';
 import classes from './home.module.css';
-import TestimonialCard from '../../Components/TestimonialCard';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Mousewheel } from 'swiper';
+
 SwiperCore.use([Mousewheel]);
 
 function Home() {
