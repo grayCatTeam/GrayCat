@@ -1,12 +1,14 @@
-import classes from "./form.module.css"
-import Header from "../../Components/Header"
-import SmallTitle from "../../Atoms/SmallTitle";
-
-import {Formik, Form, Field, FieldArray} from "formik";
+/*import components*/
 import FormLabel from "../../Atoms/FormLabel";
 import Footer from "../../Components/Footer";
+import Header from "../../Components/Header"
 
+/*import library*/
+import {Formik, Form, Field, FieldArray} from "formik";
 import {FaPlus} from "react-icons/all";
+
+/*import css*/
+import classes from "./form.module.css"
 
 
 function FormPage() {
@@ -105,9 +107,6 @@ function FormPage() {
                 </div>
               </div>
             </div>
-
-
-
           </div>
 
           <div className={`container mx-auto px-5 d-flex flex-column g-0 ${classes.formBox}`}>
