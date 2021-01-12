@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
 import { Modal } from 'bootstrap';
+import { useTranslation } from 'react-i18next';
 import classes from './navmenu.module.css';
 
 function NavMenu() {
+  const { t } = useTranslation();
+
   const closeModal = () => {
     const menu = document.getElementById('menu');
     const modal = Modal.getInstance(menu);
@@ -49,47 +52,47 @@ function NavMenu() {
         <ul>
           <li className="nav-item">
             <Link to="/" onClick={closeModal}>
-              Home
+              {t('home')}
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/about" onClick={closeModal}>
-              About
+              {t('about')}
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/works" onClick={closeModal}>
-              Our Works
+              {t('our_works')}
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/casting" onClick={closeModal}>
-              Casting
+              {t('casting')}
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/academy" onClick={closeModal}>
-              Academy
+              {t('academy')}
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/cast-profile" onClick={closeModal}>
-              Cast Single
+              {t('cast-profile')}
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/form" onClick={closeModal}>
-              Form
+              {t('form')}
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/product" onClick={closeModal}>
-              Product
+              {t('product')}
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/contact" onClick={closeModal}>
-              Contact
+              {t('contact')}
             </Link>
           </li>
         </ul>

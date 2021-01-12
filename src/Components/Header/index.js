@@ -1,7 +1,16 @@
-import Index from '../NavMenu';
+import { useState } from 'react';
+import NavMenu from '../NavMenu';
+import i18n from '../../i18n';
 import classes from './header.module.css';
 
 function Header() {
+  const [lang, setLang] = useState(i18n.language);
+
+  const changeLang = (lang) => {
+    setLang(lang);
+    i18n.changeLanguage(lang);
+  };
+
   return (
     <div>
       <nav className={`navbar navbar-light ${classes.lightTransparentBg}`}>
@@ -11,10 +20,24 @@ function Header() {
           </a>
           <div className="d-flex">
             <div className="me-3">
-              <button className="btn btn-outline-light bg-transparent border-0">
+              <button
+                className={`btn btn-outline-light bg-transparent border-0 ${
+                  lang === 'en' ? 'active' : ''
+                }`}
+                onClick={() => {
+                  changeLang('en');
+                }}
+              >
                 EN
               </button>
-              <button className="btn btn-outline-light bg-transparent border-0 ms-1">
+              <button
+                className={`btn btn-outline-light bg-transparent border-0 ms-1 ${
+                  lang === 'tr' ? 'active' : ''
+                }`}
+                onClick={() => {
+                  changeLang('tr');
+                }}
+              >
                 TR
               </button>
             </div>
@@ -52,7 +75,7 @@ function Header() {
         <div className="modal-dialog modal-fullscreen">
           <div className="modal-content">
             <div className="modal-body p-0">
-              <Index />
+              <NavMenu />
             </div>
           </div>
         </div>

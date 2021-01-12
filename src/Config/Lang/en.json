@@ -1,3 +1,11 @@
 {
-  "hello": "Hello World"
+  "home": "Home",
+  "about": "About",
+  "our_works": "Our Works",
+  "casting": "Casting",
+  "academy": "Academy",
+  "cast-profile": "Cast Profile",
+  "form": "Form",
+  "product": "Product",
+  "contact": "Contact"
 }
