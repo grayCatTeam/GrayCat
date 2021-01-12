@@ -1,13 +1,20 @@
+/*import components*/
 import Title from '../../Atoms/Title/';
+import Header from '../../Components/Header';
+import TeamCard from '../../Atoms/TeamCard';
+import LetsComponent from '../../Components/LetsComponent';
+import ContentLanding from '../../Components/ContentLanding';
+import Footer from '../../Components/Footer';
+
+/*import assets*/
 import academyInfo from '../../Assets/images/academyInfo.jpg';
 import DaraKutlay from '../../Assets/images/client.png';
 
+/*import css*/
 import classes from './academy.module.css';
-import Header from '../../Components/Header';
-import ContentLanding from '../../Components/ContentLanding';
-import TeamCard from '../../Atoms/TeamCard';
-import LetsComponent from '../../Components/LetsComponent';
-import Footer from '../../Components/Footer';
+import BigTitle from "../../Atoms/BigTitle";
+import AcademyImage from "../../Atoms/AcademyImage";
+
 
 function Academy() {
   return (
@@ -17,17 +24,15 @@ function Academy() {
         <ContentLanding/>
       </div>
 
-      <div className={classes.academyInfo}>
+      <div className={`container mx-auto g-0`}>
+
         <Title frontSide="Academy" backSide="Academy"/>
-        <div className={classes.imageContainer}>
-          <img
-            src={academyInfo}
-            width="1080px"
-            className={classes.firstImage}
-          />
-          <img src={academyInfo} width="1080px"/>
-        </div>
-        <div className={classes.textContainer}>
+
+        <AcademyImage/>
+
+
+
+        <div className={``}>
           <p style={{padding: '2rem 0'}}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius
             tortor nec ante commodo, lobortis tristique sem egestas. Maecenas

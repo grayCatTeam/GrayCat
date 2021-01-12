@@ -1,16 +1,11 @@
-.academyInfo {
-  width: 80%;
-  margin: 0 auto;
-  min-height: 1000px;
-  background-color: white;
+.wrapper {
+  min-height: 80vh;
 }
 
-.imageContainer {
-  position: relative;
-  padding: 5rem 0;
-  display: flex;
-  justify-content: center;
-  min-height: 700px;
+.beforeImage {
+  top: 30px;
+  left: 200px;
+  opacity: 0.5;
 }
 
 .imageContainer img {
@@ -24,9 +19,7 @@
   opacity: 0.8;
 }
 
-.textContainer {
-  padding: 0 15rem;
-}
+
 
 .letsContainer {
   height: 800px;
