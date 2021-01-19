@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="189" viewBox="0 0 340 189">
+    <g id="team" transform="translate(1 1)">
+        <text id="TEAM-2" data-name="TEAM" fill="rgba(255,255,255,0)" stroke="rgba(255,255,255,0.48)" stroke-width="1"
+              font-size="120" font-family="BalooThambi2-SemiBold, 'Baloo Thambi 2'" font-weight="600">
+            <tspan x="0" y="129">TEAM</tspan>
+        </text>
+        <text id="TEAM-3" data-name="TEAM" transform="translate(29 57)" fill="#fff" font-size="82"
+              font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+            <tspan x="0" y="88">TEAM</tspan>
+        </text>
+    </g>
+</svg>

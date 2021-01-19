@@ -1,4 +1,4 @@
-import Title from './../../Atoms/Title';
+import Title from '../../Atoms/Title';
 
 function Content() {
   return (

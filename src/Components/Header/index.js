@@ -2,6 +2,7 @@ import { useState } from 'react';
 import NavMenu from '../NavMenu';
 import i18n from '../../i18n';
 import classes from './header.module.css';
+import rainlogo from '../../Assets/images/rain_media_logo-01.svg'
 
 function Header() {
   const [lang, setLang] = useState(i18n.language);
@@ -16,7 +17,7 @@ function Header() {
       <nav className={`navbar navbar-light ${classes.lightTransparentBg}`}>
         <div className="container-fluid px-5">
           <a className="navbar-brand text-white" href="/">
-            RainMedia.
+
           </a>
           <div className="d-flex">
             <div className="me-3">

@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { EffectCoverflow, Mousewheel, Pagination } from 'swiper';
 import ContentLanding from '../../Components/ContentLanding';
-import popularCasting from '../../../src/Assets/images/popularCasting.svg';
+import popularCasting from '../../Assets/images/popularCasting.svg';
 import Header from '../../Components/Header';
 import Title from '../../Atoms/Title';
 import PrewButton from '../../Atoms/PrewButton';

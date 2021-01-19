@@ -1,0 +1,71 @@
+.wrapper {
+  width: 100%;
+  min-height: 500px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.addressBox {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addressIstanbul {
+  min-height: 200px;
+  display: inline;
+  color: white;
+  padding-top: 2rem;
+}
+
+.addressIstanbul,
+.addressBerlin p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.addressBerlin {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-left: 10rem;
+  width: 100%;
+  min-height: 200px;
+  color: white;
+  border-right: 1px solid white;
+}
+
+.footerMail {
+  color: white;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.socialWrapper {
+  background-color: black;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.socialTitle {
+  text-align: center;
+}
+
+.socialTitle h6 {
+  font-size: 24px;
+  color: white;
+}
+
+.socialIcon {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+
+.socialIcon * {
+  margin: 0 3rem;
+}

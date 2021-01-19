@@ -1,0 +1,74 @@
+.title {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.back {
+  color: black;
+  font-family: Impact;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #3e3e3e;
+  font-size: 100px;
+}
+
+.front {
+  position: absolute;
+  font-family: Impact;
+  color: #050505;
+  left: -10px;
+  top: 250px;
+  font-size: 85px;
+}
+
+@media only screen and (max-width: 992px) {
+  .title {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+
+  .back {
+    font-size: 85px;
+  }
+
+  .front {
+    left: -10px;
+    top: 250px;
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+
+  .back {
+    font-size: 65px;
+  }
+
+  .front {
+    left: -5px;
+    top: 185px;
+    font-size: 55px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .title {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .back {
+    font-size: 50px;
+  }
+
+  .front {
+    left: -3px;
+    top: 130px;
+    font-size: 40px;
+  }
+}

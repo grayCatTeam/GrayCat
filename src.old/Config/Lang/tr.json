@@ -1,0 +1,17 @@
+{
+  "menu": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "our_works": "İşlerimiz",
+    "casting": "Oyuncu Seçimi",
+    "academy": "Akademi",
+    "cast-profile": "Oyuncu Profili",
+    "form": "Form",
+    "product": "Ürün",
+    "contact": "İletişim",
+  },
+  "testimonial-card": {
+
+  }
+
+}

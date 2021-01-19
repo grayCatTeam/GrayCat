@@ -1,0 +1,23 @@
+.aboutRainText {
+  padding: 3rem 10rem;
+}
+
+.aboutRainText2 {
+  padding: 3rem 20rem;
+}
+
+.aboutRainText,
+.aboutRainText2 p {
+  word-break-wrap: wrap;
+  line-height: 2.5rem;
+}
+
+.teamBoxWrapper {
+  padding: 10rem;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.canI {
+  margin: 5rem 0;
+}

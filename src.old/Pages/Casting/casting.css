@@ -1,0 +1,48 @@
+.popularCasting {
+  padding: 5rem 0;
+}
+
+.popularCasting img {
+  border-radius: 50px;
+}
+
+.swiper-pagination {
+  bottom: -50px !important;
+}
+
+.sliderBox {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  background-color: #494949;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  min-height: 300px;
+}
+
+.title_front__3ljx8 {
+  left: 107px !important;
+}
+
+.gridBox {
+  background-color: black;
+  height: 20rem;
+}
+
+.gridBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.buttonContainer {
+  padding: 3rem;
+}
+
+.letsContainer {
+  min-height: 800px;
+}
