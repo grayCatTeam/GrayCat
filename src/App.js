@@ -2,10 +2,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import classes from './App.module.css'
 import React from "react";
-import gsap from "gsap";
-
-
-  gsap.set('.follower',{xPercent:-50,yPercent:-50});
 
 
 

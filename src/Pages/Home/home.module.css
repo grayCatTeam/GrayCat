@@ -4,5 +4,14 @@
   width: auto;
 }
 
+.circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color: #FDCF51;
+  margin: 50px;
+
+}
+
 
 
