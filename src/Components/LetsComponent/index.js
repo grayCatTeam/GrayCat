@@ -1,5 +1,5 @@
 /*import assets*/
-import lets from '../../Assets/images/lets.svg';
+import lets from '../../../src.old/Assets/images/lets.svg';
 
 /*import css*/
 import classes from './letscomponent.module.css';

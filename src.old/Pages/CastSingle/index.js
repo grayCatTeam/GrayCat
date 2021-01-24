@@ -1,15 +1,15 @@
 /*import components*/
-import Header from '../../Components/Header';
+import Header from '../../../src/Components/Header';
 import Title from '../../Atoms/Title';
-import GaleryComponent from '../../Components/GaleryComponent';
-import LetsComponent from '../../Components/LetsComponent';
-import Footer from '../../Components/Footer';
+import GaleryComponent from '../../../src/Components/GaleryComponent';
+import LetsComponent from '../../../src/Components/LetsComponent';
+import Footer from '../../../src/Components/Footer';
 
 /*import assets*/
 
 /*import css*/
 import classes from './castsingle.module.css';
-import CastProfilInfo from "../../Components/CastProfilInfo";
+import CastProfilInfo from "../../../src/Components/CastProfilInfo";
 
 
 function CastSingle() {

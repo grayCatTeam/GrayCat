@@ -1,14 +1,14 @@
 import {useState, useEffect} from 'react';
 import './ourworks.css';
-import Header from '../../Components/Header';
-import ContentLanding from '../../Components/ContentLanding';
+import Header from '../../../src/Components/Header';
+import ContentLanding from '../../../src/Components/ContentLanding';
 import varierty from '../../Assets/images/varierty.svg';
-import Footer from '../../Components/Footer';
+import Footer from '../../../src/Components/Footer';
 import work from '../../Assets/images/work.svg';
 import 'rc-pagination/assets/index.css';
-import LetsComponent from '../../Components/LetsComponent';
+import LetsComponent from '../../../src/Components/LetsComponent';
 import {Swiper, SwiperSlide} from 'swiper/react';
-import SlideTestimonial from '../../Components/SlideTestimonial/slideTestimonial';
+import SlideTestimonial from '../../../src/Components/SlideTestimonial/slideTestimonial';
 
 const portfolio = [
   {

@@ -2,7 +2,7 @@ import classes from "./bigtitle.module.css"
 
 
 
-const BigTitle= () => {
+const BigTitle= (props) => {
 
   return(
       <div className={`container d-flex justify-content-center`}>

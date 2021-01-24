@@ -1,6 +1,6 @@
-import CastCard from "../../Atoms/CastCard";
-import SmallTitle from "../../Atoms/SmallTitle";
-import white from "../../Assets/images/tab.svg";
+import CastCard from "../../../src.old/Atoms/CastCard";
+import SmallTitle from "../../../src.old/Atoms/SmallTitle";
+import white from "../../../src.old/Assets/images/tab.svg";
 
 
 function CastProfilInfo() {

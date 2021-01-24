@@ -1,5 +1,5 @@
 import './contentlanding.css';
-import whorwe from '../../Assets/images/whorwe.svg';
+import whorwe from '../../../src.old/Assets/images/whorwe.svg';
 
 function ContentLanding(props) {
   return (

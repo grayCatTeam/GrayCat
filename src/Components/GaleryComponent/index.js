@@ -1,6 +1,6 @@
 /*import components*/
-import PrewButton from '../../Atoms/PrewButton';
-import NextButton from '../../Atoms/NextButton/nextButton';
+import PrewButton from '../../../src.old/Atoms/PrewButton';
+import NextButton from '../../../src.old/Atoms/NextButton/nextButton';
 
 /*import css*/
 import classes from './galeryComponent.module.css'

@@ -1,9 +1,9 @@
-import organization from '../../Assets/images/organization.png';
-import tvProduction from '../../Assets/images/tvYapim.png';
-import music from '../../Assets/images/music.png';
-import casting from '../../Assets/images/casting.png';
-import branding from '../../Assets/images/branding.png';
-import film from '../../Assets/images/film.png';
+import organization from '../../../src.old/Assets/images/organization.png';
+import tvProduction from '../../../src.old/Assets/images/tvYapim.png';
+import music from '../../../src.old/Assets/images/music.png';
+import casting from '../../../src.old/Assets/images/casting.png';
+import branding from '../../../src.old/Assets/images/branding.png';
+import film from '../../../src.old/Assets/images/film.png';
 import classes from './works.module.css';
 
 function Works() {

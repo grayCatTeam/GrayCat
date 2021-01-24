@@ -1,8 +1,8 @@
 /*component import*/
-import Header from "../../Components/Header";
+import Header from "../../../src/Components/Header";
 import BigTitle from "../../Atoms/BigTitle";
-import ContactForm from "../../Components/ContactForm";
-import Footer from "../../Components/Footer";
+import ContactForm from "../../../src/Components/ContactForm";
+import Footer from "../../../src/Components/Footer";
 
 
 const Contact = () => {

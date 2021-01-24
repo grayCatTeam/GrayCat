@@ -1,10 +1,10 @@
 /*import components*/
 import Title from '../../Atoms/Title/';
-import Header from '../../Components/Header';
+import Header from '../../../src/Components/Header';
 import TeamCard from '../../Atoms/TeamCard';
-import LetsComponent from '../../Components/LetsComponent';
-import ContentLanding from '../../Components/ContentLanding';
-import Footer from '../../Components/Footer';
+import LetsComponent from '../../../src/Components/LetsComponent';
+import ContentLanding from '../../../src/Components/ContentLanding';
+import Footer from '../../../src/Components/Footer';
 
 /*import assets*/
 import academyInfo from '../../Assets/images/academyInfo.jpg';

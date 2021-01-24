@@ -1,5 +1,5 @@
-import Title from '../../Atoms/Title';
-import earth from '../../Assets/images/earth.svg';
+import Title from '../../../src.old/Atoms/Title';
+import earth from '../../../src.old/Assets/images/earth.svg';
 
 function Testimonial() {
   return (

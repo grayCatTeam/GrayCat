@@ -1,14 +1,14 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { EffectCoverflow, Mousewheel, Pagination } from 'swiper';
-import ContentLanding from '../../Components/ContentLanding';
+import ContentLanding from '../../../src/Components/ContentLanding';
 import popularCasting from '../../../src/Assets/images/popularCasting.svg';
-import Header from '../../Components/Header';
+import Header from '../../../src/Components/Header';
 import Title from '../../Atoms/Title';
 import PrewButton from '../../Atoms/PrewButton';
 import NextButton from '../../Atoms/NextButton/nextButton';
-import LetsComponent from '../../Components/LetsComponent';
-import Footer from '../../Components/Footer';
-import GaleryComponent from '../../Components/GaleryComponent';
+import LetsComponent from '../../../src/Components/LetsComponent';
+import Footer from '../../../src/Components/Footer';
+import GaleryComponent from '../../../src/Components/GaleryComponent';
 import './casting.css';
 
 SwiperCore.use([EffectCoverflow, Mousewheel, Pagination]);

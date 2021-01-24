@@ -1,7 +1,7 @@
 /*component import*/
-import Header from '../../Components/Header';
-import Footer from '../../Components/Footer';
-import TestimonialCard from "../../Components/TestimonialCard";
+import Header from '../../../src/Components/Header';
+import Footer from '../../../src/Components/Footer';
+import TestimonialCard from "../../../src/Components/TestimonialCard";
 import SmallTitle from "../../Atoms/SmallTitle";
 
 /*assets import*/

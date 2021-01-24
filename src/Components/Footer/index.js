@@ -1,6 +1,6 @@
 import './footer.css';
 import {FaTwitter, FaInstagram, FaVimeoV, FaFacebookF} from 'react-icons/fa';
-import RainTitle from '../../Assets/images/footerTitle.svg';
+import RainTitle from '../../../src.old/Assets/images/footerTitle.svg';
 
 function Footer() {
 

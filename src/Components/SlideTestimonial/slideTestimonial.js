@@ -1,5 +1,5 @@
 import './slideTestimonial.css';
-import background from '../../Assets/images/branding.png';
+import background from '../../../src.old/Assets/images/branding.png';
 
 function SlideTestimonial() {
   return (

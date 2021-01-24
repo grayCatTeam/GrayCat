@@ -1,17 +1,17 @@
-import Header from '../../Components/Header';
-import Footer from '../../Components/Footer';
+import Header from '../../../src/Components/Header';
+import Footer from '../../../src/Components/Footer';
 import './about.css';
-import ContentLanding from '../../Components/ContentLanding';
+import ContentLanding from '../../../src/Components/ContentLanding';
 import {Swiper, SwiperSlide} from 'swiper/react';
 
 import film from '../../Assets/images/film.png';
 import branding from '../../Assets/images/branding.png';
 import cast from '../../Assets/images/casting.png';
-import LetsComponent from '../../Components/LetsComponent';
+import LetsComponent from '../../../src/Components/LetsComponent';
 import team from '../../Assets/images/team.svg';
 import profil from '../../Assets/images/profil.svg';
 import TeamCard from '../../Atoms/TeamCard';
-import Works from '../../Components/Works';
+import Works from '../../../src/Components/Works';
 
 function About() {
   return (

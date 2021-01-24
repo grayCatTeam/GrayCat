@@ -1,7 +1,7 @@
 /*import components*/
 import FormLabel from "../../Atoms/FormLabel";
-import Footer from "../../Components/Footer";
-import Header from "../../Components/Header"
+import Footer from "../../../src/Components/Footer";
+import Header from "../../../src/Components/Header"
 
 /*import library*/
 import {Formik, Form, Field, FieldArray} from "formik";

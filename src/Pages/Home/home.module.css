@@ -1,3 +1,8 @@
-.line {
-  width: 2px;
+.title {
+  font-size: 5rem;
+  line-height: 8rem;
+  width: auto;
 }
+
+
+

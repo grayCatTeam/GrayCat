@@ -1,5 +1,5 @@
 /*import assets*/
-import customer from '../../Assets/images/profilePicture.svg';
+import customer from '../../../src.old/Assets/images/profilePicture.svg';
 /*import css*/
 import classes from './testimonialCard.module.css';
 

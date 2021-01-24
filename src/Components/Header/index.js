@@ -1,43 +1,25 @@
-import { useState } from 'react';
+
 import NavMenu from '../NavMenu';
-import i18n from '../../i18n';
 import classes from './header.module.css';
+import graycat from '../../Assets/images/logograycat.svg'
 
 function Header() {
-  const [lang, setLang] = useState(i18n.language);
-
-  const changeLang = (lang) => {
-    setLang(lang);
-    i18n.changeLanguage(lang);
-  };
 
   return (
     <div>
       <nav className={`navbar navbar-light ${classes.lightTransparentBg}`}>
         <div className="container-fluid px-5">
           <a className="navbar-brand text-white" href="/">
-            RainMedia.
+            <img src={graycat} width={120}/>
           </a>
           <div className="d-flex">
             <div className="me-3">
               <button
-                className={`btn btn-outline-light bg-transparent border-0 ${
-                  lang === 'en' ? 'active' : ''
-                }`}
-                onClick={() => {
-                  changeLang('en');
-                }}
+                className={`btn btn-outline-light bg-transparent border-0`}
               >
                 EN
               </button>
-              <button
-                className={`btn btn-outline-light bg-transparent border-0 ms-1 ${
-                  lang === 'tr' ? 'active' : ''
-                }`}
-                onClick={() => {
-                  changeLang('tr');
-                }}
-              >
+              <button className={`btn btn-outline-light bg-transparent border-0 ms-1`}>
                 TR
               </button>
             </div>
