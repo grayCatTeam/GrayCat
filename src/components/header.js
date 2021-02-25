@@ -1,7 +1,9 @@
 import React from 'react'
-import {Link} from 'gatsby'
-import logo from '../images/graycatlight.png'
 
+import Layout from './layout'
+import classes from '../style/header.module.css'
+
+import logo from '../assets/images/graycatlight.png'
 
 
 const Header = () => {
@@ -9,26 +11,36 @@ const Header = () => {
   return (
 
 
-    <div className={'container d-flex justify-content-between align-items-center'}>
-      <div className={""}>
-        <img src={logo} alt={"grayCat."}/>
-      </div>
-      <div className={"d-flex justify-content-between"}>
-        <nav>
-          <ul>
-            <li>
-              <Link to={'#'}>work</Link>
+   <header className={'container d-flex justify-content-between align-items-center'}>
+
+
+
+     <div className={'logo'}>
+        <img src={logo} width="150"/>
+     </div>
+
+
+     <div className={'navbar'}>
+          <ul className="d-flex justify-content-between">
+            <li className="fs-5">
+              work
             </li>
-            <li>
-              <Link to={'#'}>about</Link>
+            <li className="ms-5 fs-5">
+              about
             </li>
-            <li>
-              <Link to={'#'}>contact</Link>
+            <li className="ms-5 fs-5">
+              contact
             </li>
           </ul>
-        </nav>
-      </div>
-    </div>
+     </div>
+
+
+
+
+
+
+
+   </header>
 
 
   )

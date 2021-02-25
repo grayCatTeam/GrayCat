@@ -4,6 +4,13 @@
 
 body {
 
+    font-family: "Baloo Thambi 2";
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
 
+}
 
+li {
+    list-style: none;
 }
