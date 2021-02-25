@@ -1,0 +1,34 @@
+.hero {
+    padding-top: 10rem;
+}
+
+.imageWrapper {
+    max-width: 750px;
+    z-index: 5;
+    padding-left: 5rem;
+}
+.dayi {
+    top: -115px;
+    left: 375px;
+    z-index: 6;
+}
+.rose {
+    left: 320px;
+    top: 110px;
+    z-index: 6;
+}
+.sun {
+    left: 10px;
+    z-index: 6;
+}
+.medusa {
+    left: -35px;
+    top: 35px;
+    z-index: 7;
+}
+
+
+.heroText {
+    font-family: "Baloo Thambi 2";
+    font-size: 45px;
+}
