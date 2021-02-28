@@ -4,9 +4,12 @@ import React from 'react'
 
 const errorPage = () => {
 
-  <div>
-    404
-  </div>
+  return (
+    <div>
+      404
+    </div>
+    );
+
 
 }
 
