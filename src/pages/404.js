@@ -10,4 +10,4 @@ const errorPage = () => {
 
 }
 
-export default errorPage()
+export default errorPage;
