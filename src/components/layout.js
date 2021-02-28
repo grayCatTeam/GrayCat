@@ -7,19 +7,12 @@ import '../style/style.module.css'
 const Layout = ({children}) => {
 
   return (
-
-
     <>
     <Header/>
-
       {children}
-
     </>
 
-
   )
-
-
 }
 
 

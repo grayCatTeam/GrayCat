@@ -15,11 +15,26 @@
     animation-duration: 5s;
 }
 
+.heroText {
+    font-size: 45px;
+}
+
+.heroText h2 {
+    overflow: hidden;
+
+
+}
+
+.heroText h2 span {
+
+    display: inline-block;
+    transform: translateY(100%);
+}
+
 @keyframes points {
     0% {opacity: 0}
     100% {opacity: 0.9}
 }
-
 
 
 .dayi {
@@ -43,10 +58,14 @@
 }
 
 @keyframes rose {
-    0% {left: 600px}
-    100% {left: 320px}
-}
+    0% {
+        left: 600px
+    }
+    100% {
+        left: 320px
+    }
 
+}
 .sun {
     left: 10px;
     z-index: 6;
@@ -60,15 +79,19 @@
 }
 
 .medusa {
+
     left: -35px;
     top: 35px;
     z-index: 7;
     animation: medusa 3s;
+    transition: all .2s ease-in-out;
 }
 
+
+
 @keyframes medusa {
-    0% {top: -500px}
-    100% { top: 35px}
+    0% {top: -500px;}
+    100% { top: 35px;}
 }
 
 
@@ -76,8 +99,6 @@
     font-family: "Baloo Thambi 2";
     font-size: 45px;
 }
-
-
 
 @media screen and (max-width: 1200px) {
 
@@ -88,7 +109,7 @@
 
     .imageWrapper {
 
-
+        padding-left: 2rem !important;
 
     }
 
@@ -108,6 +129,7 @@
     .imageWrapper {
         height: 520px;
         max-width: 800px;
+        padding-left: 0 !important;
     }
 
 
@@ -117,4 +139,11 @@
 
 @media screen and (max-width: 576px){}
 
+@media screen and (min-width: 576px){
+
+    .heroDiv {
+        flex-direction: column-reverse;
+    }
+
+}
 
