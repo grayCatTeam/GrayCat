@@ -3,10 +3,12 @@
 
     background-color: #f5b100;
     width: 40%;
-    min-height: 320px;
+    min-height: 380px;
     display: flex;
     flex-direction: column;
     padding: 2rem 4rem;
+    margin-bottom: 1rem;
+    justify-content: center;
 
 
 }
