@@ -5,7 +5,7 @@
     position: relative;
     padding: 15rem 0 5rem 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     min-height: 100vh;
