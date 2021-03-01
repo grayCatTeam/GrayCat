@@ -1,8 +1,7 @@
 .cardStyle {
 
 
-    background-color: #f5b100;
-    width: 40%;
+    background: linear-gradient(180deg, #ff6052, #ea6d62);
     min-height: 380px;
     display: flex;
     flex-direction: column;
