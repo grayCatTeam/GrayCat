@@ -1,0 +1,12 @@
+.cardStyle {
+
+
+    background-color: #f5b100;
+    width: 40%;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+
+
+}

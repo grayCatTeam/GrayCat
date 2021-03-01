@@ -26,9 +26,9 @@
 }
 
 .heroText h2 span {
-    font-size: 45px;
+    font-size: 36px;
     display: inline-block;
-    transform: translateY(100%);
+    transform: translateY(120%);
 }
 
 @keyframes points {

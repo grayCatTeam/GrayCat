@@ -15,7 +15,7 @@ html {
 
 body {
     font-family: "Baloo Thambi 2", sans-serif;
-    background-color: black;
+    background-image: linear-gradient(to bottom, #000000, #0c0c0c, #141414, #1b1b1b, #212121);
     color: white;
     overflow-x: hidden !important;
     width: 100vw;

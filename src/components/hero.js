@@ -21,7 +21,7 @@ const Hero = () => {
   useEffect( () => {
 
 
-    tl.to('#create', {delay:3 , y:'0%',duration:1, stagger:0.2})
+    tl.to('#create', {delay:1.3 , y:'0%',duration:1, stagger:0.2})
 
 
 
