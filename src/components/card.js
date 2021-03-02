@@ -20,16 +20,16 @@ const Card = (props) => {
 
 return (
 
-<div ref={el => ( cardComponent = el)} className={`card w-sm-100 ${classes.cardStyle}`}>
+<div ref={el => (cardComponent = el)} className={`card w-sm-100 ${classes.cardStyle}`}>
 
   <img src={props.image} className={`${classes.image}`} alt="image" width={props.width}/>
-  <div className="card-title fs-2">
+  <div className="card-title text-white fs-2">
     {props.title}
   </div>
-  <div className="card-text">
+  <div className="card-text text-white">
     {props.text}
   </div>
-  <div className="card-tags">
+  <div className="card-tags text-dark">
     {props.children}
   </div>
 

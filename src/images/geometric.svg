@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="586" height="458" viewBox="0 0 586 458">
+  <g id="geometric" transform="translate(-888 -2948)" opacity="0.7">
+    <g id="Rectangle_79" data-name="Rectangle 79" transform="translate(888 2979)" fill="none" stroke="#707070" stroke-width="1" opacity="0.7">
+      <rect width="396" height="396" stroke="none"/>
+      <rect x="0.5" y="0.5" width="395" height="395" fill="none"/>
+    </g>
+    <g id="Polygon_1" data-name="Polygon 1" transform="translate(1104 3031)" fill="none" opacity="0.83">
+      <path d="M179.5,0,359,354H0Z" stroke="none"/>
+      <path d="M 179.5 2.211212158203125 L 1.628265380859375 353 L 357.3717346191406 353 L 179.5 2.211212158203125 M 179.5 0 L 359 354 L 0 354 L 179.5 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(1016 2948)" fill="none" stroke="#707070" stroke-width="1">
+      <circle cx="229" cy="229" r="229" stroke="none"/>
+      <circle cx="229" cy="229" r="228.5" fill="none"/>
+    </g>
+  </g>
+</svg>
