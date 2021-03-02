@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84ed59f-2b29-4cd7-b0aa-85f955a0e996" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/lets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/lets.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slideWorks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slideWorks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/card.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/style.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +52,7 @@
       <workItem from="1614500600416" duration="14283000" />
       <workItem from="1614532943832" duration="18578000" />
       <workItem from="1614600416818" duration="8362000" />
-      <workItem from="1614668704050" duration="2546000" />
+      <workItem from="1614668704050" duration="3891000" />
     </task>
     <servers />
   </component>
