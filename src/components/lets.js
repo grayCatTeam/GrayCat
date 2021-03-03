@@ -1,8 +1,8 @@
 import React from "react"
 
-import thinkers from '../images/thinkers.svg'
+import thinkers from '../assets/images/thinkers.svg'
 import classes from '../style/lets.module.css'
-import geometric from '../images/geometric.png'
+import geometric from '../assets/images/geometric.png'
 
 
 const Lets = () => {

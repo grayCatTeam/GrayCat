@@ -1,0 +1,39 @@
+ul {
+    margin: 0;
+    padding: 1rem 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    padding-bottom: 5px;
+}
+
+
+
+h3 {
+    width: 50%;
+    border-bottom-width: 1px;
+    border-bottom-color: #5a0000;
+    border-bottom-style: solid;
+    padding-bottom: 5px;
+}
+
+.contact {
+
+}
+
+
+
+
+@media screen and (max-width: 576px){
+
+    ul {
+
+    }
+
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="977" height="658" viewBox="0 0 977 658">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#341717"/>
+      <stop offset="1" stop-color="#870d21"/>
+    </linearGradient>
+  </defs>
+  <g id="back" transform="translate(-256 -141)">
+    <rect id="Rectangle_69" data-name="Rectangle 69" width="977" height="658" rx="14" transform="translate(256 141)" fill="url(#linear-gradient)"/>
+    <text id="Web_Development" data-name="Web Development" transform="translate(479.223 272.263)" fill="#fff" stroke="rgba(255,0,0,0)" stroke-width="1" font-size="45" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="0.01em"><tspan x="0" y="0">Web Development</tspan></text>
+    <text id="We_create_amazingly_responsive_websites_through_the_use_of_landing_pages_e_commerce_platforms_or_more_intricate_web_applications." data-name="We create amazingly responsive websites through the use of landing pages, e commerce platforms, or more intricate web applications." transform="translate(479.223 313.944)" fill="#fff" stroke="rgba(255,0,0,0)" stroke-width="1" font-size="35" font-family="BalooThambi2-Regular, 'Baloo Thambi 2'" letter-spacing="0.025em" opacity="0.56"><tspan x="0" y="38">We create amazingly responsive </tspan><tspan x="0" y="83">websites through the use of landing </tspan><tspan x="0" y="128">pages, e commerce platforms, or more </tspan><tspan x="0" y="173">intricate web applications.</tspan></text>
+  </g>
+</svg>
