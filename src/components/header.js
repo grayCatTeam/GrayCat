@@ -21,8 +21,7 @@ const Header = () => {
 
       </div>
 
-
-      <nav>
+    {/*<nav>
 
           <ul className="d-flex justify-content-between">
             <li className="fs-5">
@@ -36,7 +35,8 @@ const Header = () => {
             </li>
           </ul>
 
-      </nav>
+      </nav>*/}
+
 
 
 
