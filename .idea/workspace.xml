@@ -2,50 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84ed59f-2b29-4cd7-b0aa-85f955a0e996" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/dayi.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/dayi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/points.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/points.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/lets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/lets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slideWorks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slideWorks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Group 7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Group 7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Layer 0.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Rectangle 1aa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/Rectangle 1aa.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/bigGrid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/bigGrid.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/calligraphy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/calligraphy.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/dayi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/geometric.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/geometric.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/geometric.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/geometric.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/graycat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/graycatlight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/laptop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/laptop.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/medusa.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/medusa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/medusa.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/medusaSun.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/mobileCard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/mobileCard.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pen.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/pen.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/phonelink-ring (1).gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/phonelink-ring (1).gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/points.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/points.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/points.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/rose.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/rose.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/rose.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/school_education_eraser_delete_remove_rubber_text.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/school_education_eraser_delete_remove_rubber_text.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/school_education_ink_writing_calligraphy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/school_education_ink_writing_calligraphy.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/school_education_pencil_graphite_draw_sketch_y0MkDMt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/school_education_pencil_graphite_draw_sketch_y0MkDMt.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/smartphone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/smartphone.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/sun.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/sun.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/technology_device_laptop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/technology_device_laptop.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/technology_device_smartphone_call.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/technology_device_smartphone_call.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/thinkers.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/thinkers.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/thinkingMen-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/thinkingMen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/unnamed.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/unnamedpurp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/who r we  – 4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/who r we  – 4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/card.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/footer.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +60,7 @@
       <workItem from="1614600416818" duration="8362000" />
       <workItem from="1614668704050" duration="5186000" />
       <workItem from="1614698721585" duration="4522000" />
-      <workItem from="1614749466528" duration="6566000" />
+      <workItem from="1614749466528" duration="7840000" />
     </task>
     <servers />
   </component>

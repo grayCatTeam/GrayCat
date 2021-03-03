@@ -24,7 +24,10 @@ h3 {
 }
 
 .contact {
-
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-top: 1rem;
 }
 
 
@@ -32,8 +35,25 @@ h3 {
 
 @media screen and (max-width: 576px){
 
-    ul {
+    .contact {
 
+        margin: 5rem 0;
+
+    }
+
+    .contact img {
+        width: 40%;
+
+    }
+
+    .column {
+        padding: 0 !important;
+        margin: 2rem 0 !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
 }
