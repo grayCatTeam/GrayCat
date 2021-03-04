@@ -1,6 +1,8 @@
 import React from "react"
 import Card from "../components/card"
 
+
+
 import classes from "../style/slideWorks.module.css"
 import grid from "../assets/images/bigGrid.svg"
 import sm from "../assets/images/smartphone.svg"
@@ -10,8 +12,13 @@ import ai from "../assets/images/calligraphy.svg"
 
 
 
-
 const SlideWorks = () => {
+
+
+
+
+
+
 
   return (
 
@@ -41,6 +48,7 @@ const SlideWorks = () => {
         </div>
         <div className="col-xl-6 px-5 py-2">
           <Card
+
             image={sm}
             width={'65px'}
             title="Apps"
@@ -61,6 +69,7 @@ const SlideWorks = () => {
         </div>
         <div className="col-xl-6 px-5 py-2">
           <Card
+
             image={text}
             width={'120px'}
             title="Content"
@@ -76,6 +85,7 @@ const SlideWorks = () => {
         </div>
         <div className="col-xl-6 px-5 py-2">
           <Card
+
             image={ai}
             width={'120px'}
             title="Graphic"

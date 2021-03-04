@@ -11,13 +11,20 @@ import Lets from "../components/lets"
 
 const IndexPage = () => {
 
+
+
   return (
+
+
 
       <Layout>
         <Hero/>
         <SlideWorks/>
         <Lets/>
       </Layout>
+
+
+
 
   )
 

@@ -57,7 +57,7 @@
     animation: rose 3s;
 }
 
-@keyframes rose {
+/*@keyframes rose {
     0% {
         left: 600px
     }
@@ -65,7 +65,7 @@
         left: 320px
     }
 
-}
+}*/
 .sun {
     left: 10px;
     z-index: 6;

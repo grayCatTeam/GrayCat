@@ -1,6 +1,7 @@
 import React, { useEffect,useRef } from "react"
 
 import gsap from "gsap/all"
+import {ScrollTrigger} from "gsap/ScrollTrigger"
 
 import classes from '../style/hero.module.css'
 
@@ -14,7 +15,11 @@ import sun from '../assets/images/sun.png'
 
 const Hero = () => {
 
+
+  gsap.registerPlugin(ScrollTrigger)
+
   let aniItem = useRef([])
+
 
   let tl = gsap.timeline({defaults: {ease: "SlowMo.easeOut"}})
 
@@ -26,6 +31,9 @@ const Hero = () => {
 
 
   },[])
+
+
+
 
 
   return (
@@ -60,7 +68,7 @@ const Hero = () => {
           <div className={`${classes.imageWrapper} position-relative ms-auto`}>
             <img id="medusa" className={`position-absolute ${classes.medusa}`} src={medusa} width="330" alt="graycat."/>
             <img className={`position-absolute ${classes.dayi}`} src={dayi} alt="graycat."/>
-            <img className={`position-absolute ${classes.rose}`} src={rose} id="rose" alt="graycat."/>
+            <img  className={`position-absolute ${classes.rose}`} src={rose} id="rose" alt="graycat."/>
             <img className={`position-absolute ${classes.sun}`} src={sun} alt="graycat."/>
             <img id="points" className={`position-absolute ${classes.points}`} src={points} alt="graycat."/>
           </div>
