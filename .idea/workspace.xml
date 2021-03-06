@@ -2,14 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84ed59f-2b29-4cd7-b0aa-85f955a0e996" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/AboutHero/aboutHero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AboutHero/aboutHero.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CardWork/card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Group 7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Layer 0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Rectangle 1aa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/medusa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/mobileCard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/phonelink-ring (1).gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/thinkers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/thinkingMen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/unnamed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/unnamedpurp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/who r we  – 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/hero.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slideWorks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slideWorks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/lets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Lets/lets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slideWorks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SlideWorks/slideWorks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/export/ComponentComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/export/ComponentComponent.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/export/ComponentTMP_0-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/export/ComponentTMP_1-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/export/ComponentTMP_1-image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/export/ComponentTMP_1-image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/export/ComponentTMP_2-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/export/HeaderComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/export/HeaderComponent.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/export/LineComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/export/LineComponent.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/export/WegiveshapetobrandIdentitiesanddesigndigitalExperiencestohelpOrganizationsinnovatetheirBusinessComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/export/WegiveshapetobrandIdentitiesanddesigndigitalExperiencestohelpOrganizationsinnovatetheirBusinessComponent.stories.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/card.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/hero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/hero.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/about.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardWork/card.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/hero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/hero.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/lets.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Lets/lets.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/slideWorks.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SlideWorks/slideWorks.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/style.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +89,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\celik\01-#jobs\01graycat\code\grayCatFrontEnd\src\assets\images" />
+      <recent name="D:\celik\01-#jobs\01graycat\code\grayCatFrontEnd\src\components\SlideWorks" />
+      <recent name="D:\celik\01-#jobs\01graycat\code\grayCatFrontEnd\src\components\Lets" />
+      <recent name="D:\celik\01-#jobs\01graycat\code\grayCatFrontEnd\src\components\Hero" />
+      <recent name="D:\celik\01-#jobs\01graycat\code\grayCatFrontEnd\src\components\Header" />
+      <recent name="D:\celik\01-#jobs\01graycat\code\grayCatFrontEnd\src\components\Footer" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,7 +112,9 @@
       <workItem from="1614668704050" duration="5186000" />
       <workItem from="1614698721585" duration="4522000" />
       <workItem from="1614749466528" duration="8782000" />
-      <workItem from="1614833085991" duration="11426000" />
+      <workItem from="1614833085991" duration="22003000" />
+      <workItem from="1614969885713" duration="3947000" />
+      <workItem from="1615014698976" duration="4923000" />
     </task>
     <servers />
   </component>

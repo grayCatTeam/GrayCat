@@ -1,14 +1,14 @@
 import React from "react"
-import Card from "../components/card"
+import Card from "../CardWork/card"
 
 
 
-import classes from "../style/slideWorks.module.css"
-import grid from "../assets/images/bigGrid.svg"
-import sm from "../assets/images/smartphone.svg"
-import lap from "../assets/images/laptop.svg"
-import text from "../assets/images/pen.svg"
-import ai from "../assets/images/calligraphy.svg"
+import classes from "./slideWorks.module.css"
+import grid from "../../assets/images/bigGrid.svg"
+import sm from "../../assets/images/smartphone.svg"
+import lap from "../../assets/images/laptop.svg"
+import text from "../../assets/images/pen.svg"
+import ai from "../../assets/images/calligraphy.svg"
 
 
 

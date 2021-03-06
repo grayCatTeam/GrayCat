@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-import classes from '../style/header.module.css'
-import logo from '../assets/images/graycatlight.png'
+import classes from './header.module.css'
+import logo from '../../assets/images/graycatlight.png'
 
 
 const Header = () => {

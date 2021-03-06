@@ -7,5 +7,5 @@
 // You can delete this file if you're not using it
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {gsap} from 'gsap/all'
+import {gsap} from 'gsap';
 

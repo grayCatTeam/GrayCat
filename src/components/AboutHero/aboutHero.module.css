@@ -1,0 +1,60 @@
+.aboutHero {
+    height: 80vh;
+    padding: 5rem;
+}
+
+.textHero {
+    padding: 0 0 0 14rem;
+}
+
+.subHeading {
+    color: crimson;
+    font-size: 2rem;
+    position: absolute;
+    top: -50px;
+    right: -132px;
+}
+
+.heading {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: -30px;
+}
+
+.headLine {
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+.arrowDown {
+    animation: arrow 1s ease-in;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+
+    0% { top: 0 }
+    100% { top: 5px }
+
+}
+
+
+@media screen and (max-width: 768px){
+
+    .aboutHero {
+        height: 40vh;
+    }
+
+    .textHero {
+        padding: 0;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 576px){}
+

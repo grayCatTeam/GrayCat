@@ -3,13 +3,13 @@ import React, { useEffect,useRef } from "react"
 import gsap from "gsap/all"
 import {ScrollTrigger} from "gsap/ScrollTrigger"
 
-import classes from '../style/hero.module.css'
+import classes from './hero.module.css'
 
-import dayi from '../assets/images/dayi.png'
-import rose from '../assets/images/rose.png'
-import medusa from '../assets/images/medusa.png'
-import points from '../assets/images/points.svg'
-import sun from '../assets/images/sun.png'
+import dayi from '../../assets/images/dayi.png'
+import rose from '../../assets/images/rose.png'
+import medusa from '../../assets/images/medusa.png'
+import points from '../../assets/images/points.svg'
+import sun from '../../assets/images/sun.png'
 
 
 

@@ -1,5 +1,5 @@
 .cardStyle {
-    background-image: url("../assets/images/backred.svg");
+    background-image: url("../../assets/images/backred.svg");
     background-position: center;
     min-height: 380px;
     display: flex;
@@ -7,8 +7,10 @@
     padding: 2rem 4rem;
     margin-bottom: 2rem;
     justify-content: center;
-    opacity: 0;
 }
+
+
+
 
 
 

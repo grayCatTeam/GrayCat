@@ -1,8 +1,8 @@
 import React from "react"
 
-import thinkers from '../assets/images/thinkers.svg'
-import classes from '../style/lets.module.css'
-import geometric from '../assets/images/geometric.png'
+
+import classes from './lets.module.css'
+import geometric from '../../assets/images/geometric.png'
 
 
 const Lets = () => {
@@ -28,7 +28,7 @@ const Lets = () => {
           </div>
         </div>
         <div className={`col-xl-6 d-flex justify-content-end`}>
-          <img className={`${classes.thinkers}`} src={thinkers} width={'100%'}/>
+
         </div>
       </div>
 

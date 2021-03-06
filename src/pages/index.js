@@ -1,9 +1,9 @@
 import React from "react"
 
 import Layout from '../components/layout'
-import Hero from "../components/hero"
-import SlideWorks from "../components/slideWorks"
-import Lets from "../components/lets"
+import Hero from "../components/Hero/hero"
+import SlideWorks from "../components/SlideWorks/slideWorks"
+import Lets from "../components/Lets/lets"
 
 
 
