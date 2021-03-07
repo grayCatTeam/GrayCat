@@ -1,19 +1,20 @@
 import React, { useEffect,useRef } from "react"
-
 import gsap from "gsap/all"
 import {ScrollTrigger} from "gsap/ScrollTrigger"
 
-import classes from './hero.module.css'
-
-import dayi from '../../assets/images/dayi.png'
+import grid from '../../assets/images/points@2x.png'
+import hero from '../../assets/images/heroSculpture.png'
 import rose from '../../assets/images/rose.png'
-import medusa from '../../assets/images/mask.png'
-import points from '../../assets/images/points.svg'
+import dayi from '../../assets/images/dayi.png'
 import sun from '../../assets/images/sun.png'
 
+import classes from './hero.module.css'
 
 
-const Hero = () => {
+
+
+
+const IndexHero = () => {
 
 
   gsap.registerPlugin(ScrollTrigger)
@@ -39,9 +40,10 @@ const Hero = () => {
   return (
 
     <div className={`container ${classes.hero}`}>
-      <div className={`row d-flex flex-xl-row flex-md-column-reverse ${classes.heroDiv}`}>
 
-        <div className={`col-xxl-6 col-xl-5`}>
+      <div className={`row ${classes.rowWrap}`}>
+
+        <div className={`col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex align-items-center`}>
           <div
             ref={el => {aniItem = el}}
             className={`text-light ${classes.heroText}`}>
@@ -63,16 +65,15 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className={`col-xxl-6 col-xl-7`}>
+        <div className={`col-xl-6 col-lg-6 col-md-6 col-sm-12 pt-5 d-flex justify-content-end ${classes.imageColumn}`}>
 
-          <div className={`${classes.imageWrapper} position-relative ms-auto`}>
-            <img id="medusa" className={`position-absolute ${classes.medusa}`} src={medusa} width="330" alt="graycat."/>
-            <img className={`position-absolute ${classes.dayi}`} src={dayi} alt="graycat."/>
-            <img  className={`position-absolute ${classes.rose}`} src={rose} id="rose" alt="graycat."/>
-            <img className={`position-absolute ${classes.sun}`} src={sun} alt="graycat."/>
-            <img id="points" className={`position-absolute ${classes.points}`} src={points} alt="graycat."/>
-          </div>
-
+                <div className={`${classes.imageWrapper}`}>
+                  <img className={classes.grid} src={grid} alt={'grid'} width={'100%'}/>
+                  <img className={classes.sun} src={sun} alt={'sun'} width={'55%'}/>
+                  <img className={classes.sculp} src={hero} alt={'hero'} width={'55%'}/>
+                  <img className={classes.rose} src={rose} alt={'rose'} width={'55%'}/>
+                  <img className={classes.dayi} src={dayi} alt={'dayi'} width={'25%'}/>
+                </div>
 
         </div>
 
@@ -88,4 +89,4 @@ const Hero = () => {
 }
 
 
-export default Hero
+export default IndexHero

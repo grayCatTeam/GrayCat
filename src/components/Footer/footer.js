@@ -14,7 +14,8 @@ const Footer = () => {
 
   return (
 
-    <footer className="container" style={{marginBottom:'50px',position:"fixed",bottom:0}}>
+    <footer className={classes.footer}>
+      <div className={`container`}>
         <div className={`row`}>
           <div className={`col-xl-6 col-md-12 text-xl-start text-md-center`}>
             <img src={logo} alt={"logo"} width={200}/>
@@ -45,6 +46,8 @@ const Footer = () => {
             <p style={{color: '#534F4F', fontSize:'24px' , bottom:0}}>© 2019 graycat. All Rights Reserved.</p>
           </div>
         </div>
+      </div>
+
     </footer>
 
   )

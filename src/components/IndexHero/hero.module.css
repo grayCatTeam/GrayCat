@@ -1,28 +1,14 @@
 .hero {
-    padding-top: 10rem;
-}
-
-.imageWrapper {
-    max-width: 750px;
-    z-index: 5;
-    padding-left: 5rem;
-    height: 500px;
-}
-
-.points {
-    animation-name: points;
-    opacity: 0.9;
-    animation-duration: 5s;
+    padding-top: 0;
+    height: 90vh;
 }
 
 .heroText {
-    font-size: 45px;
+    font-family: "Baloo Thambi 2";
 }
 
 .heroText h2 {
     overflow: hidden;
-
-
 }
 
 .heroText h2 span {
@@ -31,119 +17,101 @@
     transform: translateY(120%);
 }
 
-@keyframes points {
-    0% {opacity: 0}
-    100% {opacity: 0.9}
+.imageWrapper {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
+.imageWrapper img {
+    position: absolute;
+}
 
 .dayi {
-    top: -115px;
-    left: 375px;
-    z-index: 6;
-    animation-name: dayi;
-    animation-duration: 4s;
+    right: 0;
+    top: 0;
 }
 
-@keyframes dayi {
-    0% {left: -1000px}
-    100% {left: 375px}
+.sculp {
+    left: -40px;
+    top: 10%;
 }
 
 .rose {
-    left: 320px;
-    top: 110px;
-    z-index: 6;
-    animation: rose 3s;
+    right: 0;
+    bottom: 10%;
 }
 
-/*@keyframes rose {
-    0% {
-        left: 600px
-    }
-    100% {
-        left: 320px
-    }
-
-}*/
-.sun {
-    left: 10px;
-    z-index: 6;
-    animation-delay:3s;
-    animation: sun 5s ease;
-}
-
-@keyframes sun {
-    0% {opacity:0}
-    100% {opacity: 1}
-}
-
-.medusa {
-
-    left: -35px;
-    top: 35px;
-    z-index: 7;
-    animation: medusa 3s;
-    transition: all .2s ease-in-out;
+.grid {
+    top: 10%;
 }
 
 
-
-@keyframes medusa {
-    0% {top: -500px;}
-    100% { top: 35px;}
-}
-
-
-.heroText {
-    font-family: "Baloo Thambi 2";
-    font-size: 45px;
-}
 
 @media screen and (max-width: 1200px) {
 
 
-    .heroText {
-        font-size: 35px;
+    .hero {
+        height: 40vh;
     }
 
-    .imageWrapper {
 
-        padding-left: 2rem !important;
-
+    .heroText h2 span {
+        font-size: 28px;
     }
+
+    .imageWrapper{
+        width: 350px;
+        height: 350px;
+    }
+
 
 }
-
-
 
 @media screen and (max-width: 992px) {
 
     .heroText {
         width: 100%;
         margin: 0 auto;
-        padding:0 0 0 3rem;
+        padding: 1rem;
 
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+
+    .heroText h2 span {
+        font-size: 18px;
     }
 
     .imageWrapper {
-        height: 520px;
-        max-width: 800px;
-        padding-left: 0 !important;
-    }
-
-
-}
-
-@media screen and (max-width: 768px){}
-
-@media screen and (max-width: 576px){}
-
-@media screen and (min-width: 576px){
-
-    .heroDiv {
-        flex-direction: column-reverse;
+        width: 250px;
+        height: 250px;
     }
 
 }
+
+@media screen and (max-width: 576px){
+
+        .rowWrap {
+            flex-direction: column-reverse;
+
+        }
+        .hero {
+            height: 100vh;
+        }
+
+    .imageColumn {
+        display: flex;
+        justify-content: center !important;
+    }
+
+}
+
 
