@@ -4,11 +4,13 @@ import Layout from "../components/layout"
 
 
 
-const About = () => {
+const Contact = () => {
   return (
 
     <Layout>
-      
+
+
+
     </Layout>
 
 
@@ -16,4 +18,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Contact

@@ -7,7 +7,7 @@ import classes from './hero.module.css'
 
 import dayi from '../../assets/images/dayi.png'
 import rose from '../../assets/images/rose.png'
-import medusa from '../../assets/images/medusa.png'
+import medusa from '../../assets/images/mask.png'
 import points from '../../assets/images/points.svg'
 import sun from '../../assets/images/sun.png'
 

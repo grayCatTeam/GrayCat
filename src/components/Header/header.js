@@ -1,8 +1,8 @@
 import React from 'react'
 
-
+import logo from "../../assets/graycatlight.svg"
 import classes from './header.module.css'
-import logo from '../../assets/images/graycatlight.png'
+
 
 
 const Header = () => {
@@ -17,16 +17,13 @@ const Header = () => {
 
       <div className={`${classes.logo}`}>
 
-        <img className={`${classes.logo}`} src={logo}/>
+          <img src={logo} width={"200px"}/>
 
       </div>
 
-    {/*<nav>
+    <nav>
 
           <ul className="d-flex justify-content-between">
-            <li className="fs-5">
-              work
-            </li>
             <li className="ms-5 fs-5">
               about
             </li>
@@ -35,7 +32,7 @@ const Header = () => {
             </li>
           </ul>
 
-      </nav>*/}
+      </nav>
 
 
 

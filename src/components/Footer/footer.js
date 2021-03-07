@@ -1,7 +1,12 @@
 import React from 'react'
 
-import logo from "../../assets/images/graycatlight.png"
+
+import { Link } from "gatsby"
+import { FaBehance, FaCodepen, FaDribbble, FaInstagram, FaLinkedin } from "react-icons/fa"
+
+import logo from "../../assets/graycatlight.svg"
 import classes from "./footer.module.css"
+import { IconContext } from "react-icons"
 
 
 
@@ -9,56 +14,37 @@ const Footer = () => {
 
   return (
 
-    <footer style={{minHeight:'300px'}}>
-      <div className={`container`}>
-
-        <div className={`row py-5 d-flex flex-wrap`}>
-          <div className={`col-xl-3  ${classes.contact}`}>
-            <div className={` mb-4 text-center`}>
-              <img src={logo} width={"50%"}/>
+    <footer className="container" style={{marginBottom:'50px',position:"fixed",bottom:0}}>
+        <div className={`row`}>
+          <div className={`col-xl-6 col-md-12 text-xl-start text-md-center`}>
+            <img src={logo} alt={"logo"} width={200}/>
+            <div className={classes.links}>
+              <Link to={'/privacy'}>Privacy</Link>
+              <span>/</span>
+              <Link to={'/faq'}>FAQ</Link>
             </div>
-            <div className={`text-center`}>
-              <p className={`text-center`}>Abbasaga / Besiktas</p>
-              <p className={`text-center`}>Istanbul</p>
-              <a className={'text-white text-center'} href={'mailto:info@graycat.co'}>info@graycat.co</a>
+            <div className={classes.address}>
+              <p className="fs-4">Abbasaga / Besiktas 34364 Istanbul</p>
             </div>
           </div>
+          <div className={`col-xl-6 col-md-12 d-xl-flex justify-content-end flex-column align-items-end`}>
 
-          <div className={`col-xl-3 ps-5  ${classes.column}`}>
-            <h3 className={`${classes.subHeading} fs-4`}>Social</h3>
-            <ul>
-              <li><a className={`text-white`} href={"https://www.linkedin.com/company/likeacat"} target={"_blank"}>Linkedin</a></li>
-              <li><a className={`text-white`} href={"https://dribbble.com/graycatstudio"} target={"_blank"}>Dribble</a></li>
-              <li><a className={`text-white`} href={"https://www.behance.net/graycatstudio"} target={"_blank"}>Behance</a></li>
-              <li><a className={`text-white`} href={"https://codepen.io/graycatstudio"} target={"_blank"}>CodePen</a></li>
-            </ul>
-          </div>
 
-          <div className={`col-xl-3 ps-5 md-my-4 ${classes.column}`}>
+            <div className={classes.socialLinks}>
 
-              <h3 className={`${classes.subHeading} fs-4`}>Partners</h3>
+              <IconContext.Provider value={{size:32, color:'#534F4F'}}>
+                <a href={"#"}><FaInstagram/></a>
+                <a href={`https://dribbble.com/graycatstudio`} target={`_blank`} rel="noreferrer" className="ms-4"><FaDribbble/></a>
+                <a href={`https://www.behance.net/graycatstudio`} target={`_blank`} rel="noreferrer" className="ms-4"><FaBehance/></a>
+                <a href={`https://codepen.io/graycatstudio`} target="_blank" rel="noreferrer" className="ms-4"><FaCodepen/></a>
+                <a href={`https://www.linkedin.com/company/likeacat/`} target="_blank"  rel="noreferrer" className="ms-4"><FaLinkedin/></a>
+              </IconContext.Provider>
+            </div>
 
-            <ul>
-              <li><a className={`text-white`} href={"https://ads.google.com/aw/campaigns/new/express?campaignId=10580265964&ocid=530083575&subid=tr-tr-ha-aw-sk-c-bau%21o3~Cj0KCQiA4feBBhC9ARIsABp_nbVpNOdMWWxEsTdqs-JHdA0Y8f4zGPI0J1QoY9JU1FhA9sIKlsmJ094aAul0EALw_wcB~11226936979&step=crev&euid=422696844&__u=2735040556&uscid=530083575&__c=3681330175&authuser=0&sourceid=emp"} target={"_blank"}>Google</a></li>
-              <li><a className={`text-white`} href={"https://www.shopify.com/"} target={"_blank"}>Shopify</a></li>
-              <li><a className={`text-white`} href={"https://www.iyzico.com/"} target={"_blank"}>Iyzico</a></li>
-              <li><a className={`text-white`} href={"https://codepen.io/graycatstudio"} target={"_blank"}>CodePen</a></li>
-            </ul>
-          </div>
 
-          <div className={`col-xl-3 ps-5 md-my-4 ${classes.column}`}>
-            <h3 className={`${classes.subHeading} fs-4`}>Support</h3>
-            <ul>
-              <li><a className={`text-white`} href={"https://www.shopify.com/"} target={"_blank"}>FAQ</a></li>
-              <li><a className={`text-white`} href={"https://www.iyzico.com/"} target={"_blank"}>GrayCat Team</a></li>
-            </ul>
+            <p style={{color: '#534F4F', fontSize:'24px' , bottom:0}}>© 2019 graycat. All Rights Reserved.</p>
           </div>
         </div>
-
-        <div className={`pt-5 mt-5 pb-4 text-center`}>
-          <p>copyrigt @2020 by <a className={'text-white'} href={'https://graycat.co'}>grayCat</a></p>
-        </div>
-      </div>
     </footer>
 
   )

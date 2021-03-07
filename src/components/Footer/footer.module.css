@@ -10,50 +10,53 @@ p{
 
 
 a {
-    padding-bottom: 5px;
+   color: #534F4F;
+    transition: all 0.2s ease-out;
 }
 
 
 
-.subHeading {
-    width: 50%;
-    border-bottom-width: 1px;
-    border-bottom-color: #5a0000;
-    border-bottom-style: solid;
-    padding-bottom: 5px;
+
+a:hover {
+    color: #FF3737;
 }
 
-.contact {
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
-    padding-top: 1rem;
+
+
+.links {
+    font-size: 24px;
+    color: #534F4F;
+    margin-top: 1rem;
 }
 
+.links span {
+    margin: 0 0.5rem;
+}
+
+
+.address {
+    color: #534F4F;
+}
+
+
+
+.socialLinks {
+    margin: 1.5rem 0;
+}
+
+
+.socialLinks svg>path {
+    transition: color 0.2s ease-in;
+}
+
+
+.socialLinks a:hover svg>path {
+        color: #FF3737;
+}
 
 
 
 @media screen and (max-width: 576px){
 
-    .contact {
-
-        margin: 5rem 0;
-
-    }
-
-    .contact img {
-        width: 40%;
-
-    }
-
-    .column {
-        padding: 0 !important;
-        margin: 2rem 0 !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
 
 }
