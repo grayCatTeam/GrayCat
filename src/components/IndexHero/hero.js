@@ -11,9 +11,6 @@ import sun from '../../assets/images/sun.png'
 import classes from './hero.module.css'
 
 
-
-
-
 const IndexHero = () => {
 
 

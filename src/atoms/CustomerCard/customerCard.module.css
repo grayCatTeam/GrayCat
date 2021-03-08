@@ -1,0 +1,47 @@
+.cardWrap {
+   border: 1px #534F4F solid;
+    background-color: #000000;
+    width: 50%;
+    border-radius: 40px;
+    transition: all 5ms ease-in ;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cardWrap p {
+    width: 75%;
+}
+
+.cardWrap:hover {
+    border:1px #FF3737 solid;
+}
+
+@media screen and (max-width: 1024px){
+    .cardWrap p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .cardWrap {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cardWrap {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cardWrap {
+        width: 90%;
+    }
+
+    .cardWrap p {
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 576px){}
