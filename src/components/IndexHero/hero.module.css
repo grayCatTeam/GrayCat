@@ -1,6 +1,7 @@
 .hero {
     padding-top: 0;
-    height: 90vh;
+    margin-top: 2rem;
+    height: 80vh;
 }
 
 .heroText {
