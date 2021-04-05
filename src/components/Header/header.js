@@ -2,6 +2,7 @@ import React from 'react'
 
 import logo from "../../assets/graycatlight.svg"
 import classes from './header.module.css'
+import { Link } from "gatsby"
 
 
 
@@ -25,10 +26,10 @@ const Header = () => {
 
           <ul className="d-flex justify-content-between">
             <li className="ms-5 fs-5">
-              about
+              <Link to={'/about'}>About </Link>
             </li>
             <li className="ms-5 fs-5">
-              contact
+              <Link to={'/contact'}>Contact</Link>
             </li>
           </ul>
 

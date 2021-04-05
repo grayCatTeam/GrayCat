@@ -18,7 +18,7 @@ const Footer = () => {
       <div className={`container`}>
         <div className={`row p-5`}>
           <div className={`col-xl-6 col-md-12 text-xl-start text-md-center`}>
-            <img src={logo} alt={"logo"} width={200}/>
+            <img src={logo} alt={"logo"} width={150}/>
             <div className={classes.links}>
               <Link to={'/privacy'}>Privacy</Link>
               <span>/</span>

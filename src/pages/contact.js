@@ -1,6 +1,8 @@
 import React from "react"
 
 import Layout from "../components/layout"
+import ActionCard from "../atoms/ActionCard/actionCard"
+
 
 
 
@@ -9,7 +11,8 @@ const Contact = () => {
 
     <Layout>
 
-
+    This is Contact..
+      <ActionCard/>
 
     </Layout>
 

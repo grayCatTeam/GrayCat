@@ -2,13 +2,16 @@ import React, { useEffect,useRef } from "react"
 import gsap from "gsap/all"
 import {ScrollTrigger} from "gsap/ScrollTrigger"
 
-import grid from '../../assets/images/points@2x.png'
+import classes from './hero.module.css'
+
 import heroImg from '../../assets/images/heroSculpture@2x.png'
+import grid from '../../assets/images/points@2x.png'
 import rose from '../../assets/images/rose@2x.png'
 import dayi from '../../assets/images/dayi@2x.png'
 import sun from '../../assets/images/sun@2x.png'
+import arrowDown from '../../assets/icons/arrowDown.svg';
 
-import classes from './hero.module.css'
+
 
 
 const IndexHero = () => {
@@ -67,6 +70,10 @@ const IndexHero = () => {
 
 
       </div>
+      <div className="row mt-5 pt-5 w-100 d-flex justify-content-center position-relative">
+        <img src={arrowDown} className={classes.arrow} />
+      </div>
+
 
     </div>
 

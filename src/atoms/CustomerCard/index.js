@@ -29,8 +29,10 @@ const CustomerCard = (props) => {
             <div className="card-text pb-3">
               <p style={{color:'#534f4f'}}>
                 {props.children}
-                <Link to={'/#'}> Continue...</Link>
               </p>
+              <Link to={'/#'}>
+                <button>More Detail</button>
+              </Link>
             </div>
           </div>
 
