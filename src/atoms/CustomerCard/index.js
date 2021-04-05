@@ -20,9 +20,9 @@ const CustomerCard = (props) => {
           </div>
         </div>
 
-        <div className="col-xl-6 col-lg-12">
+        <div className="col-xl-6 col-lg-12 d-flex align-items-center">
 
-          <div className="card-body p-3">
+          <div className="card-body p-3 ">
             <div className="card-title pt-3 pb-2">
               <h3>{props.companyName}</h3>
             </div>
