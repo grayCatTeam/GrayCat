@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f84ed59f-2b29-4cd7-b0aa-85f955a0e996" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/old/graycat.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/graycat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/old/graycatlight.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/graycatlight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/IndexHero/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IndexHero/hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/faq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/privacy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IndexHero/hero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IndexHero/hero.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +42,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\celik\01-#jobs\01graycat\grayCat\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
