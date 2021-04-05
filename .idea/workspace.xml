@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84ed59f-2b29-4cd7-b0aa-85f955a0e996" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/atoms/CustomerCard/customerCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/CustomerCard/customerCard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

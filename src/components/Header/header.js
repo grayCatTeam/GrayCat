@@ -12,12 +12,12 @@ const Header = () => {
 
    <header className={`d-flex align-items-center`}>
 
-  <div className={`container d-flex justify-content-between align-items-center px-4`}>
+  <div className={`container d-flex justify-content-between align-items-center px-5`}>
 
 
       <div className={`${classes.logo}`}>
 
-          <img src={logo} width={"200px"}/>
+          <img src={logo} width={"150px"}/>
 
       </div>
 
