@@ -23,15 +23,9 @@ const IndexHero = () => {
 
   useEffect( () => {
 
-
     tl.to('#create', {delay:1.3 , y:'0%',duration:1, stagger:0.2})
 
-
-
   },[])
-
-
-
 
 
   return (
@@ -40,7 +34,7 @@ const IndexHero = () => {
 
       <div className={`row ${classes.rowWrap}`}>
 
-        <div className={`col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex align-items-center`}>
+        <div className={`col-sm-12 col-md-6 d-flex align-items-center`}>
           <div
             ref={el => {aniItem = el}}
             className={`text-light ${classes.heroText}`}>

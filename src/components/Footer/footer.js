@@ -16,7 +16,7 @@ const Footer = () => {
 
     <footer className={classes.footer}>
       <div className={`container`}>
-        <div className={`row`}>
+        <div className={`row p-5`}>
           <div className={`col-xl-6 col-md-12 text-xl-start text-md-center`}>
             <img src={logo} alt={"logo"} width={200}/>
             <div className={classes.links}>
