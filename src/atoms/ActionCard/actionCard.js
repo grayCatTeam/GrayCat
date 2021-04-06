@@ -1,7 +1,6 @@
 import React from "react"
 import {Link} from 'gatsby'
 
-import Button from '../Button/button'
 
 import classes from './actionCard.module.css'
 
@@ -10,6 +9,7 @@ import vertigo from '../../assets/images/vertigo.png'
 
 const ActionCard = () => {
   return(
+
     <div className={`container border-5 border-danger ${classes.actionWrapper}`}>
       <div className={`${classes.actionText}`}>
 
@@ -27,12 +27,12 @@ const ActionCard = () => {
       </div>
       <div className={`${classes.actionImage}`}>
         <div className={`${classes.imageWrap}`}>
-
-            <img src={cat} className={classes.cat}/>
+          <img src={cat} className={classes.cat}/>
           <img src={vertigo} className={classes.vertigo}/>
         </div>
       </div>
     </div>
+
   )
 }
 

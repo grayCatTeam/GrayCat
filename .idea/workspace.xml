@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f84ed59f-2b29-4cd7-b0aa-85f955a0e996" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graycatui.xd" beforeDir="false" afterPath="$PROJECT_DIR$/graycatui.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/ActionCard/actionCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/ActionCard/actionCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/CustomerCard/customerCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/CustomerCard/customerCard.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atoms/CustomerCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/CustomerCard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardWork/card.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardWork/card.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IndexHero/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IndexHero/hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IndexHero/hero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IndexHero/hero.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +79,7 @@
       <workItem from="1615035034654" duration="3667000" />
       <workItem from="1615084220717" duration="27315000" />
       <workItem from="1615183334379" duration="7563000" />
+      <workItem from="1617694598506" duration="888000" />
     </task>
     <servers />
   </component>
@@ -99,5 +96,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -24,19 +24,19 @@
 
 @media screen and (max-width: 992px){
     .cardWrap {
-        width: 60%;
+        width: 80%;
     }
 }
 
 @media screen and (max-width: 768px){
     .cardWrap {
-        width: 70%;
+        width: 90%;
     }
 }
 
 @media screen and (max-width: 576px) {
     .cardWrap {
-        width: 90%;
+        width: 95%;
     }
 
     .cardWrap p {
@@ -44,4 +44,3 @@
     }
 
 }
-@media screen and (min-width: 576px){}

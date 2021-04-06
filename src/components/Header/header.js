@@ -18,7 +18,9 @@ const Header = () => {
 
       <div className={`${classes.logo}`}>
 
+        <Link to={'/'}>
           <img src={logo} width={"150px"}/>
+        </Link>
 
       </div>
 
