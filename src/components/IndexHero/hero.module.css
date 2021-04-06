@@ -45,17 +45,38 @@
     top: -35%;
     right: 5%;
     width: 35%;
+    animation-delay: 5s;
+    animation: dayi 6s ease-in-out;
+    -moz-animation: dayi 6s ease-in-out;
+}
+
+@keyframes dayi {
+    0% {right: 300%}
+    100% { right: 5%}
 }
 
 .heroImg {
     width: 55%;
     left: 5%;
+    animation: heroImg 5s ease-in-out;
+    -moz-animation: heroImg 5s ease-in-out;
+}
+
+@keyframes heroImg {
+    0% { opacity: 0}
+    100% { opacity: 1}
 }
 
 .rose {
     width: 40%;
     bottom: -15%;
     right: -2%;
+    animation: rose 3s ease-in-out;
+    -moz-animation: rose 3s ease-in-out;
+}
+@keyframes rose {
+    0% {bottom: 150%}
+    100% { bottom: -15%}
 }
 
 .sun {
