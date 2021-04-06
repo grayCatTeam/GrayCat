@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f84ed59f-2b29-4cd7-b0aa-85f955a0e996" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atoms/CustomerCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/CustomerCard/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AboutHero/aboutHero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutHero/aboutHero.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AboutHero/aboutHero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutHero/aboutHero.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IndexHero/hero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IndexHero/hero.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +48,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="D:\celik\01-#jobs\01graycat\code\grayCatFrontEnd\src\components\SlideWorks" />
       <recent name="D:\celik\01-#jobs\01graycat\code\grayCatFrontEnd\src\components\Lets" />
       <recent name="D:\celik\01-#jobs\01graycat\code\grayCatFrontEnd\src\components\Hero" />
-      <recent name="D:\celik\01-#jobs\01graycat\code\grayCatFrontEnd\src\components\Header" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -79,7 +76,7 @@
       <workItem from="1615035034654" duration="3667000" />
       <workItem from="1615084220717" duration="27315000" />
       <workItem from="1615183334379" duration="7563000" />
-      <workItem from="1617694598506" duration="2663000" />
+      <workItem from="1617694598506" duration="5462000" />
     </task>
     <servers />
   </component>
