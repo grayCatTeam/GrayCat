@@ -1,8 +1,6 @@
 import React from 'react'
 
 import classes from './customerCard.module.css'
-
-import bleu from '../../assets/svg/bleu.svg'
 import { Link } from "gatsby"
 
 
@@ -14,7 +12,7 @@ const CustomerCard = (props) => {
       <div className="row">
         <div className="col-xl-6 col-lg-12">
           <div className="card-img p-4">
-            <img src={bleu} alt={'appitr'} width={'100%'}/>
+            <img src={props.image} alt={'appitr'} width={'100%'}/>
           </div>
         </div>
         <div className="col-xl-6 col-lg-12 d-flex align-items-center">

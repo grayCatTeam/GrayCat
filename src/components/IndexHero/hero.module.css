@@ -58,6 +58,7 @@
 .heroImg {
     width: 55%;
     left: 5%;
+    animation-delay: 4s;
     animation: heroImg 5s ease-in-out;
     -moz-animation: heroImg 5s ease-in-out;
 }
@@ -71,6 +72,7 @@
     width: 40%;
     bottom: -15%;
     right: -2%;
+    animation-delay: 3s;
     animation: rose 3s ease-in-out;
     -moz-animation: rose 3s ease-in-out;
 }
@@ -85,6 +87,7 @@
     top: -5%;
 }
 
+
 .arrow {
     width: 3.5%;
     position: absolute;
@@ -96,8 +99,10 @@
 }
 
 @keyframes arrow {
-    0% {top: 10px}
-    100% {top: 30px}
+
+    0% { top: 0 }
+    100% { top: 5px }
+
 }
 
 /* X-Large devices (large desktops, less than 1400px) */
