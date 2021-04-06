@@ -1,0 +1,10 @@
+.what {
+    padding-top: 7rem;
+    padding-left: 7rem;
+}
+
+.what p {
+    line-height:30px;
+    letter-spacing:1px;
+    color: #534F4F;
+}
