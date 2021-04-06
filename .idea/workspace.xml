@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f84ed59f-2b29-4cd7-b0aa-85f955a0e996" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atoms/AboutSlide/aboutSlide.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/AboutSlide/aboutSlide.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atoms/AboutSlide/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/AboutSlide/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +78,8 @@
       <workItem from="1615035034654" duration="3667000" />
       <workItem from="1615084220717" duration="27315000" />
       <workItem from="1615183334379" duration="7563000" />
-      <workItem from="1617694598506" duration="12376000" />
+      <workItem from="1617694598506" duration="12458000" />
+      <workItem from="1617729238891" duration="2113000" />
     </task>
     <servers />
   </component>
