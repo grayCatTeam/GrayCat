@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f84ed59f-2b29-4cd7-b0aa-85f955a0e996" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graycatui.xd" beforeDir="false" afterPath="$PROJECT_DIR$/graycatui.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atoms/AboutSlide/aboutSlide.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/AboutSlide/aboutSlide.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/AboutSlide/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/AboutSlide/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\celik\01-#jobs\01graycat\grayCat\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -76,7 +79,10 @@
       <workItem from="1615084220717" duration="27315000" />
       <workItem from="1615183334379" duration="7563000" />
       <workItem from="1617694598506" duration="12458000" />
-      <workItem from="1617729238891" duration="3017000" />
+      <workItem from="1617729238891" duration="4285000" />
+      <workItem from="1617796902489" duration="2203000" />
+      <workItem from="1617858546627" duration="3335000" />
+      <workItem from="1617864542536" duration="5081000" />
     </task>
     <servers />
   </component>

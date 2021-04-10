@@ -8,9 +8,17 @@
     background-color: #FF3737;
     min-height: 400px;
     margin-top: 5rem;
-    margin-bottom: 5rem;
     position: relative;
     border-radius: 10px;
+}
+
+.slideBox img {
+    display: none;
+    object-fit: cover;
+}
+
+.slideBox img.active {
+    display: block;
 }
 
 .slideBox::before {
@@ -25,28 +33,34 @@
     border-radius: 10px;
 }
 
-.aboutSlide ol li:nth-child(1) {
-    width: 50px;
-    height: 50px;
-    background-color: aliceblue;
+
+
+
+/*-------------------------*/
+
+
+.navigation span {
+    color: #534F4F;
 }
 
-.aboutSlide ol li:nth-child(2) {
-    width: 50px;
-    height: 50px;
-    background-color: chartreuse;
+.navigation span svg {
+    cursor: pointer;
 }
 
-.aboutSlide ol li:nth-child(3) {
-    width: 50px;
-    height: 50px;
-    background-color: violet;
+.dashBorder {
+    animation: dashBorder 3s ease-in-out;
+    animation-iteration-count: infinite;
+    color: #ff3737;
+    width: 2px;
+    height: 90px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='5' stroke-dasharray='20 ' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
 }
 
-.aboutSlide ol li:nth-child(4) {
-    width: 50px;
-    height: 50px;
-    background-color: #ffc800;
+@keyframes dashBorder {
+    0% {
+        border-color: #534F4F;
+    }
+    100% {
+        border-color: #ff3737;
+    }
 }
-
-
