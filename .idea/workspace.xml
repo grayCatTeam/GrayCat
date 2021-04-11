@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84ed59f-2b29-4cd7-b0aa-85f955a0e996" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/helpers/CarouselData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graycatui.xd" beforeDir="false" afterPath="$PROJECT_DIR$/graycatui.xd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atoms/AboutSlide/aboutSlide.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/AboutSlide/aboutSlide.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/AboutSlide/aboutSlide.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/AboutSlide/aboutSlide.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atoms/AboutSlide/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/AboutSlide/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -82,7 +82,8 @@
       <workItem from="1617729238891" duration="4285000" />
       <workItem from="1617796902489" duration="2203000" />
       <workItem from="1617858546627" duration="3335000" />
-      <workItem from="1617864542536" duration="5081000" />
+      <workItem from="1617864542536" duration="5255000" />
+      <workItem from="1618033604071" duration="15358000" />
     </task>
     <servers />
   </component>

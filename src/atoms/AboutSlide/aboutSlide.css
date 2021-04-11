@@ -10,15 +10,9 @@
     margin-top: 5rem;
     position: relative;
     border-radius: 10px;
-}
-
-.slideBox img {
-    display: none;
-    object-fit: cover;
-}
-
-.slideBox img.active {
-    display: block;
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
 }
 
 .slideBox::before {
@@ -33,6 +27,10 @@
     border-radius: 10px;
 }
 
+
+.arrowCarousel:hover {
+    color: #ff3737;
+}
 
 
 
@@ -64,3 +62,48 @@
         border-color: #ff3737;
     }
 }
+
+
+/*-----------------------*/
+
+.thumbnailWrapper {
+    padding-top: 3rem;
+    width: 80%;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.thumbnailWrapper div {
+    background-color: #171717;
+}
+
+.thumbnailWrapper .thumbnailBox.active {
+    border-color: #ff3737;
+}
+
+.thumbnailWrapper .thumbnailBox.active span {
+    color: #ff3737;
+}
+
+.thumbnailBox {
+    border: 1px #353434 solid;
+    width: 23%;
+    padding: 2rem;
+}
+
+.thumbnailBox h3 {
+    font-size: 1.2rem;
+}
+
+.thumbnailBox p {
+    font-size: 0.8rem;
+    color: #534F4F;
+}
+
+.thumbnailBox span {
+    color: #534F4F;
+}
+
