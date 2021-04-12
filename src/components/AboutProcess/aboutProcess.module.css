@@ -4,7 +4,26 @@
 }
 
 .what p {
+    width: 25%;
     line-height:30px;
     letter-spacing:1px;
     color: #534F4F;
+}
+
+
+@media screen and (max-width: 768px){
+    .what {
+        padding-top: 3rem;
+        padding-left: 3rem;
+    }
+
+    .what p {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 576px){
+   .what p {
+       width: 75%;
+   }
 }

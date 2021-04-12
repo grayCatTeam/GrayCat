@@ -9,7 +9,7 @@ const AboutProcess = () => {
       <>
       <div className={classes.what}>
         <h2>What</h2>
-        <p className="w-25" style={{}}>
+        <p>
           Create emotions by combining design and technology.
           to turn visions into digital experiences, which people love living in.
         </p>

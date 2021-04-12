@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import {images} from "../../helpers/CarouselData";
 
 import './aboutSlide.css';
@@ -8,14 +8,65 @@ import { FaChevronDown, FaChevronUp } from "react-icons/all";
 
 const AboutSlide = () => {
 
+  const thumbnailOne = useRef('')
+
   const [currentImg,setCurrentImg] = useState(0);
+  const [activeClass, setClass] = useState('active');
+  const [activeOneClass, setOneClass] = useState('');
+  const [activeTwoClass, setTwoClass] = useState('');
+  const [activeThreeClass, setThreeClass] = useState('');
+  const [currentId,setCurrentId] = useState(0)
+
+  useEffect(() => {
+
+  },[])
+
+  const changeOne = () => {
+
+    setOneClass('')
+    setThreeClass('')
+    setTwoClass('')
+    activeClass ==='active' ? setClass('') : setClass('active');
+    setCurrentImg(0)
+
+  }
+
+  const changeTwo = () => {
+
+    setTwoClass('')
+    setThreeClass('')
+    setClass('')
+    activeOneClass ==='active' ? setOneClass('') : setOneClass('active');
+    setCurrentImg(1)
+
+  }
+
+  const changeThree = () => {
+
+    setClass('')
+    setThreeClass('')
+    setOneClass('')
+    activeTwoClass ==='active' ? setTwoClass('') : setTwoClass('active');
+    setCurrentImg(2)
+
+  }
+
+  const changeFour = () => {
+
+    setClass('')
+    setOneClass('')
+    setTwoClass('')
+    activeThreeClass ==='active' ? setThreeClass('') : setThreeClass('active');
+    setCurrentImg(3)
+
+  }
 
 
   return(
       <>
         <div className="aboutSlide">
 
-          <div className="slideBox" style={{backgroundImage:`url(${images[currentImg].img})`}} onChange={ () => {setCurrentImg(currentImg)}}>
+          <div className="slideBox" style={{backgroundImage:`url(${images[currentImg].img})`}}>
           </div>
           <div className={`d-flex flex-column justify-content-end align-items-center fs-4 mx-3 navigation`}>
             <span className="d-flex flex-column align-items-center arrowCarousel" onClick={() => {currentImg > 0 && setCurrentImg(currentImg - 1)}}>
@@ -29,7 +80,7 @@ const AboutSlide = () => {
           </div>
         </div>
         <div className="thumbnailWrapper my-5">
-          <div className="d-flex thumbnailBox">
+          <div className={`d-flex thumbnailBox ${activeClass}`} onClick={changeOne}>
             <div className="w-25 d-flex justify-content-center align-items-center fs-1">
               <span>{images[0].id}</span>
             </div>
@@ -38,7 +89,7 @@ const AboutSlide = () => {
               <p> {images[0].text} </p>
             </div>
           </div>
-          <div className="d-flex thumbnailBox">
+          <div className={`d-flex thumbnailBox ${activeOneClass}`} onClick={changeTwo}>
             <div className="w-25 d-flex justify-content-center align-items-center fs-1">
               <span>{images[1].id}</span>
             </div>
@@ -47,7 +98,7 @@ const AboutSlide = () => {
               <p> {images[1].text} </p>
             </div>
           </div>
-          <div className="d-flex thumbnailBox">
+          <div className={`d-flex thumbnailBox ${activeTwoClass}`} onClick={changeThree}>
             <div className="w-25 d-flex justify-content-center align-items-center fs-1">
               <span>{images[2].id}</span>
             </div>
@@ -56,7 +107,7 @@ const AboutSlide = () => {
               <p> {images[2].text} </p>
             </div>
           </div>
-          <div className="d-flex thumbnailBox">
+          <div className={`d-flex thumbnailBox ${activeThreeClass}`} onClick={changeFour}>
             <div className="w-25 d-flex justify-content-center align-items-center fs-1">
               <span>{images[3].id}</span>
             </div>
