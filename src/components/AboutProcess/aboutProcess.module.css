@@ -10,6 +10,12 @@
     color: #534F4F;
 }
 
+@media screen and (max-width: 991px) {
+    .job_title_card {
+        padding: 7rem !important;
+    }
+}
+
 
 @media screen and (max-width: 768px){
     .what {
@@ -20,10 +26,18 @@
     .what p {
         width: 50%;
     }
+
+    .job_title_card {
+        padding: 5rem !important;
+    }
 }
 
 @media screen and (max-width: 576px){
    .what p {
        width: 75%;
    }
+
+    .job_title_card {
+        padding: 2rem !important;
+    }
 }

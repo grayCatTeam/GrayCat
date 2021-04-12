@@ -26,7 +26,7 @@ const AboutSlide = () => {
     setOneClass('')
     setThreeClass('')
     setTwoClass('')
-    activeClass ==='active' ? setClass('') : setClass('active');
+    setClass('active')
     setCurrentImg(0)
 
   }
@@ -36,7 +36,7 @@ const AboutSlide = () => {
     setTwoClass('')
     setThreeClass('')
     setClass('')
-    activeOneClass ==='active' ? setOneClass('') : setOneClass('active');
+    setOneClass('active')
     setCurrentImg(1)
 
   }
@@ -46,7 +46,7 @@ const AboutSlide = () => {
     setClass('')
     setThreeClass('')
     setOneClass('')
-    activeTwoClass ==='active' ? setTwoClass('') : setTwoClass('active');
+    setTwoClass('active');
     setCurrentImg(2)
 
   }
@@ -56,8 +56,21 @@ const AboutSlide = () => {
     setClass('')
     setOneClass('')
     setTwoClass('')
-    activeThreeClass ==='active' ? setThreeClass('') : setThreeClass('active');
+    setThreeClass('active');
     setCurrentImg(3)
+
+  }
+
+
+
+  const changeUpImage = () => {
+
+    currentImg < images.length - 1 && setCurrentImg(currentImg + 1)
+
+  }
+
+  const changeDownImage = () => {
+    currentImg > 0 && setCurrentImg(currentImg - 1)
 
   }
 
@@ -69,11 +82,11 @@ const AboutSlide = () => {
           <div className="slideBox" style={{backgroundImage:`url(${images[currentImg].img})`}}>
           </div>
           <div className={`d-flex flex-column justify-content-end align-items-center fs-4 mx-3 navigation`}>
-            <span className="d-flex flex-column align-items-center arrowCarousel" onClick={() => {currentImg > 0 && setCurrentImg(currentImg - 1)}}>
+            <span className="d-flex flex-column align-items-center arrowCarousel" onClick={changeUpImage}>
               <FaChevronUp/>
               <div className="mb-5 dashBorder"></div>
             </span>
-            <span className="d-flex flex-column align-items-center arrowCarousel" onClick={() => {currentImg < images.length - 1 && setCurrentImg(currentImg +1)}}>
+            <span className="d-flex flex-column align-items-center arrowCarousel" onClick={changeDownImage}>
               <div className="dashBorder"></div>
               <FaChevronDown/>
             </span>
