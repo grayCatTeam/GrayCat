@@ -3,6 +3,7 @@ import React from "react";
 import classes from './aboutProcess.module.css';
 import AboutSlide from "../../atoms/AboutSlide"
 import AboutJobTitle from "../../atoms/AboutJobTitle"
+import ActionCard from "../../atoms/ActionCard/actionCard"
 
 const AboutProcess = () => {
 
@@ -18,7 +19,7 @@ const AboutProcess = () => {
 
       <AboutSlide/>
 
-      <div className={classes.job_title_card} style={{backgroundColor:'#000',padding:'10rem', display:'flex',flexWrap:"wrap",justifyContent:'space-evenly'}}>
+      <div className={classes.job_title_card} >
         <AboutJobTitle
           title="Strategy and Planning"
           text="We create amazingly responsive websites through the use of landing pages, e commerce platforms, or more intricate web applications."
@@ -56,6 +57,10 @@ const AboutProcess = () => {
           tagFive="Windows"
         />
       </div>
+      <div style={{margin:'2rem 0'}}>
+        <ActionCard/>
+      </div>
+
     </>
   )
 }
