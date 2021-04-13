@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84ed59f-2b29-4cd7-b0aa-85f955a0e996" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/atoms/ContactFooter/contactfooter.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/atoms/ContactFooter/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContactForm/contactform.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContactForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContactHero/contacthero.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContactHero/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutProcess/aboutProcess.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutProcess/aboutProcess.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +52,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="D:\celik\01-#jobs\01graycat\code\grayCatFrontEnd\src\components\SlideWorks" />
       <recent name="D:\celik\01-#jobs\01graycat\code\grayCatFrontEnd\src\components\Lets" />
-      <recent name="D:\celik\01-#jobs\01graycat\code\grayCatFrontEnd\src\components\Hero" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -81,7 +86,7 @@
       <workItem from="1617796902489" duration="2203000" />
       <workItem from="1617858546627" duration="3335000" />
       <workItem from="1617864542536" duration="5255000" />
-      <workItem from="1618033604071" duration="32512000" />
+      <workItem from="1618033604071" duration="39960000" />
     </task>
     <servers />
   </component>
