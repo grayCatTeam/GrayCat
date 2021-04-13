@@ -1,0 +1,52 @@
+.what {
+    padding-top: 7rem;
+    padding-left: 7rem;
+}
+
+.what p {
+    width: 25%;
+    line-height:30px;
+    letter-spacing:1px;
+    color: #534F4F;
+}
+
+.job_title_card {
+    background-color:#000000;
+    padding:8rem 10rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+
+@media screen and (max-width: 991px) {
+    .job_title_card {
+        padding: 7rem !important;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .what {
+        padding-top: 3rem;
+        padding-left: 3rem;
+    }
+
+    .what p {
+        width: 50%;
+    }
+
+    .job_title_card {
+        padding: 5rem !important;
+    }
+}
+
+@media screen and (max-width: 576px){
+   .what p {
+       width: 75%;
+   }
+
+    .job_title_card {
+        padding: 2rem !important;
+    }
+}
