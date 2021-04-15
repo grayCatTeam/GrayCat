@@ -3,7 +3,7 @@ import React from "react";
 import classes from './aboutProcess.module.css';
 import AboutSlide from "../../atoms/AboutSlide"
 import AboutJobTitle from "../../atoms/AboutJobTitle"
-import ActionCard from "../../atoms/ActionCard/actionCard"
+
 
 const AboutProcess = () => {
 
@@ -57,9 +57,7 @@ const AboutProcess = () => {
           tagFive="Windows"
         />
       </div>
-      <div style={{margin:'2rem 0'}}>
-        <ActionCard/>
-      </div>
+     
 
     </>
   )
