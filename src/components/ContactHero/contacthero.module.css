@@ -1,35 +1,48 @@
-.circleDiv {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 55%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.wrapper {
+    width: 50%;
+    min-height: 500px;
+    margin: 5rem auto;
     position: relative;
-    margin-top: 5rem;
+    text-align: center;
+
+
 }
 
-.circleDiv .vinci {
-    position: relative;
-    top: -6rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.circle {
+    opacity: 0.3;
+    width: 70%;
+}
+
+.vinci {
+    width: 40%;
+    position: absolute;
+    top: -20%;
+    left: 30%;
+}
+
+.vinci img {
+    width: 80%;
 }
 
 .title {
     position: absolute;
-    bottom: 0;
-    font-size: 7rem;
-
+    bottom: -15px;
+    width: 100%;
+    font-size: 75px;
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 7rem;
+    width: 120px;
+    position: absolute;
+    left: 42%;
+    top: 47%;
+}
+
+.text {
+    color: #7c7c7c;
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    z-index: 2;
+    width: 100%;
 }
