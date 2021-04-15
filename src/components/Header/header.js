@@ -19,7 +19,7 @@ const Header = () => {
       <div className={`${classes.logo}`}>
 
         <Link to={'/'}>
-          <img src={logo} width={"150px"}/>
+          <img src={logo} />
         </Link>
 
       </div>
@@ -27,10 +27,10 @@ const Header = () => {
     <nav>
 
           <ul className="d-flex justify-content-between">
-            <li className="ms-5 fs-5">
+            <li className={classes.navList}>
               <Link to={'/about'}>About </Link>
             </li>
-            <li className="ms-5 fs-5">
+            <li className={classes.navList}>
               <Link to={'/contact'}>Contact</Link>
             </li>
           </ul>

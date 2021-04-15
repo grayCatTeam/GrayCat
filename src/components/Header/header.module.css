@@ -1,9 +1,40 @@
 header {
     min-height: 150px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .logo {
-    max-width: 150px;
+    width: 150px;
     object-fit: cover;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.navList {
+    margin-left: 2.5rem;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 576px){
+    header {
+        min-height: 120px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .navList {
+        margin-left: 1rem;
+        font-size: 14px;
+    }
 }
 

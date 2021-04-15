@@ -2,7 +2,87 @@ form {
     background-color: #000000;
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 50%;
     margin: 0 auto;
     padding: 2rem;
+    border-radius: 12px;
 }
+
+form .name,.budget, .email,.message {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.name input {
+    padding: 0.8rem;
+    background-color: #171717;
+    border: none;
+    border-radius: 7px;
+}
+
+.email input {
+    padding: 0.8rem;
+    background-color: #171717;
+    border: none;
+    border-radius: 7px;
+}
+
+.message input {
+    padding: 0.8rem;
+    background-color: #171717;
+    border: none;
+    border-radius: 7px;
+}
+
+/*------radio button styles----------*/
+
+.budget {
+    display: flex;
+    flex-direction: column;
+    width:90%;
+}
+
+.hide {
+    display: none;
+}
+
+.label_radio {
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    width: 23%;
+    font-size: 14px;
+    background-color: #171717;
+    border-radius: 7px;
+}
+
+.displayBox {
+    width: 100%;
+
+}
+
+input[type=radio]:checked + .label_radio {
+    border: 1px solid #ff3737;
+    color: #ff3737;
+}
+
+/*-------------------------*/
+
+.button {
+    width: 90%;
+    background-color: #171717;
+    border:1px solid #ff3737;
+    border-radius: 7px;
+    padding: 12px;
+    color: white;
+    transition: all 0.5s ease;
+    margin: 0.5rem 0;
+}
+
+.button:hover {
+    background-color: #ff3737;
+}
+
