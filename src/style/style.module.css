@@ -35,5 +35,19 @@ a {
     text-decoration: none;
 }
 
+.teams{
+    width: 80%;
+    margin: 0 auto;
 
 
+}
+
+.teamTitle {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+}
+
+.teamTitle p {
+    color: #343434;
+}

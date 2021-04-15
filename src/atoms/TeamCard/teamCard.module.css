@@ -1,12 +1,51 @@
-.mda {
-   width: 20px;
-   background-image: url(../../assets/svg/Union\ 3.svg);
-}
 
-.image{
+
+
+.team{
+
+    width:30%;
+    height: 450px;
+    background-color:#000000;
+    border-radius: 40px;
+    transition: all 1s ease-in;
+    margin: 1rem ;
     
-    background-color: black;
-    image-rendering: auto;
    
 
 }
+
+.team:hover{
+    background-color: #171717;
+    border:1px solid #ff3737;
+
+}
+
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 75px;
+    height: 70%;
+}
+
+.name{
+    text-align: start;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    
+
+}
+
+.name p {
+    color:#534F4F ;
+}
+
+.name h3{
+    font-size: 18px;
+}
+
