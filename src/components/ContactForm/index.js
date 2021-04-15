@@ -37,7 +37,7 @@ const ContactForm = () => {
             <label>Project Budget :</label>
             <div className="d-flex justify-content-between">
               {/*----5k-----*/}
-              <input type="radio" name="budget" id="1" className={classes.hide} checked/>
+              <input type="radio" name="budget" id="1" className={classes.hide} />
               <label htmlFor="1" className={classes.label_radio}>
                 <div className={classes.displayBox}>
                   $5k - $15k
@@ -65,8 +65,6 @@ const ContactForm = () => {
                 </div>
               </label>
             </div>
-
-
           </div>
 
           <div className={classes.message}>
