@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="f84ed59f-2b29-4cd7-b0aa-85f955a0e996" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graycatui.xd" beforeDir="false" afterPath="$PROJECT_DIR$/graycatui.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/TeamCard/teamCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/TeamCard/teamCard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutHero/aboutHero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutHero/aboutHero.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutProcess/aboutProcess.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutProcess/aboutProcess.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactForm/contactform.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm/contactform.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactHero/contacthero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactHero/contacthero.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/style.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +89,9 @@
       <workItem from="1617858546627" duration="3335000" />
       <workItem from="1617864542536" duration="5255000" />
       <workItem from="1618033604071" duration="55648000" />
+      <workItem from="1618486552186" duration="420000" />
+      <workItem from="1618785976804" duration="217000" />
+      <workItem from="1618821107671" duration="4719000" />
     </task>
     <servers />
   </component>

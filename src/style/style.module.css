@@ -51,3 +51,20 @@ a {
 .teamTitle p {
     color: #343434;
 }
+
+
+@media screen and (max-width: 991px) {
+
+}
+
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 576px){
+    .teams{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

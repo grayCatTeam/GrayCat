@@ -86,3 +86,40 @@ input[type=radio]:checked + .label_radio {
     background-color: #ff3737;
 }
 
+@media screen and (max-width: 1199px) {
+    form {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    form {
+        width: 85%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px){
+    form {
+        width: 95%;
+    }
+
+    .label_radio {
+        font-size: 12px;
+        width: 47%;
+        margin-bottom: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .label_radio {
+        font-size: 10px;
+    }
+
+    form {
+        padding: 1rem;
+    }
+}
+

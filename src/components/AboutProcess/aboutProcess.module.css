@@ -20,8 +20,12 @@
 
 
 @media screen and (max-width: 991px) {
+    .what p {
+        width: 30%;
+    }
+
     .job_title_card {
-        padding: 7rem !important;
+        padding: 5rem !important;
     }
 }
 
@@ -47,6 +51,6 @@
    }
 
     .job_title_card {
-        padding: 2rem !important;
+        padding: 1rem !important;
     }
 }

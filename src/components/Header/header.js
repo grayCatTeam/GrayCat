@@ -13,7 +13,7 @@ const Header = () => {
 
    <header className={`d-flex align-items-center`}>
 
-  <div className={`container d-flex justify-content-between align-items-center px-5`}>
+  <div className={`container d-flex justify-content-between align-items-center px-3`}>
 
 
       <div className={`${classes.logo}`}>

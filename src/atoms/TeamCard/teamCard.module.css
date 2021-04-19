@@ -49,3 +49,42 @@
     font-size: 18px;
 }
 
+
+@media screen and (max-width: 1199px) {
+    .team {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .team {
+        width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .team {
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    .team{
+
+        width:80%;
+        height: 450px;
+        background-color:#000000;
+        border-radius: 12px;
+        transition: all 1s ease-in;
+        margin: 1rem ;
+
+
+
+    }
+}
+
+
+
+
