@@ -17,11 +17,7 @@ const AboutSlide = () => {
   const [activeThreeClass, setThreeClass] = useState('');
   const [currentId,setCurrentId] = useState(0)
 
-  useEffect(() => {
 
-    changeInterval()
-
-  },[])
 
   const changeOne = () => {
 

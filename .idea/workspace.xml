@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f84ed59f-2b29-4cd7-b0aa-85f955a0e996" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graycatui.xd" beforeDir="false" afterPath="$PROJECT_DIR$/graycatui.xd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ct.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ct.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ct@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ct@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/mac.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/mac.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/mac@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/mac@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/mao.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/mao.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/mao@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/mao@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/mda.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/mda.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/mda@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/mda@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ms.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ms.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ms@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ms@2x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/atoms/AboutSlide/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/AboutSlide/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/atoms/TeamCard/teamCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/TeamCard/teamCard.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +88,8 @@
       <workItem from="1618912364181" duration="328000" />
       <workItem from="1618920043087" duration="32000" />
       <workItem from="1618963083693" duration="1934000" />
+      <workItem from="1619036161465" duration="521000" />
+      <workItem from="1619038952528" duration="241000" />
     </task>
     <servers />
   </component>
