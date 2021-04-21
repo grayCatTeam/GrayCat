@@ -13,10 +13,7 @@ import mda from "../assets/images/mda@2x.png"
 import mac from "../assets/images/mac@2x.png"
 import ms from "../assets/images/ms@2x.png"
 import ct from "../assets/images/ct@2x.png"
-
-
-
-
+import tg from "../assets/images/tg@2x.png"
 
 
 const About = () => {
@@ -42,7 +39,7 @@ const About = () => {
           <TeamCard img={mac} name="Mehmet Arda Çelik" title="Front End Developer" />
           <TeamCard img={ms} name="Mine Sunar" title="Marketing Engineer" />
           <TeamCard img={ct} name="Coşkun Toprak" title="Governor of NYC" />
-          <TeamCard img={mao} name="Tara" title="UI Designer" />
+          <TeamCard img={tg} name="Tara Green" title="UI Designer" />
         </div>
       </div>
 

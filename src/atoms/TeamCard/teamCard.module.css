@@ -25,9 +25,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 75px;
     height: 70%;
 }
+
+.img img {
+    width:50%;
+}
+
 
 .name{
     text-align: start;

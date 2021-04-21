@@ -19,6 +19,8 @@ const AboutSlide = () => {
 
   useEffect(() => {
 
+    changeInterval()
+
   },[])
 
   const changeOne = () => {
