@@ -35,11 +35,36 @@ a {
     text-decoration: none;
 }
 
+.teams{
+    width: 80%;
+    margin: 0 auto;
 
-@media screen and (max-width: 992px){}
 
-@media screen and (max-width: 768px){}
+}
 
-@media screen and (max-width: 576px){}
+.teamTitle {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 
-@media screen and (min-width: 576px){}
+}
+
+.teamTitle p {
+    color: #343434;
+}
+
+
+@media screen and (max-width: 991px) {
+
+}
+
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 576px){
+    .teams{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

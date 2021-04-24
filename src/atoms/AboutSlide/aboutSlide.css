@@ -1,0 +1,139 @@
+.aboutSlide {
+    display: flex;
+    justify-content: center;
+}
+
+.slideBox {
+    width: 45%;
+    background-color: #FF3737;
+    min-height: 400px;
+    margin-top: 5rem;
+    position: relative;
+    border-radius: 10px;
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
+}
+
+.slideBox::before {
+    content: ' ';
+    width: 100%;
+    min-height: 400px;
+    position: absolute;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='5' ry='5' stroke='%234A4A4AFF' stroke-width='3' stroke-dasharray='30' stroke-dashoffset='24' stroke-linecap='square'/%3e%3c/svg%3e");
+    left: -10px;
+    bottom: -10px;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+
+.arrowCarousel:hover {
+    color: #ff3737;
+}
+
+
+
+/*-------------------------*/
+
+
+.navigation span {
+    color: #534F4F;
+}
+
+.navigation span svg {
+    cursor: pointer;
+}
+
+.dashBorder {
+    animation: dashBorder 3s ease-in-out;
+    animation-iteration-count: infinite;
+    color: #ff3737;
+    width: 2px;
+    height: 90px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='5' stroke-dasharray='20 ' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+
+@keyframes dashBorder {
+    0% {
+        border-color: #534F4F;
+    }
+    100% {
+        border-color: #ff3737;
+    }
+}
+
+
+/*-----------------------*/
+
+.thumbnailWrapper {
+    padding-top: 3rem;
+    width: 80%;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.thumbnailWrapper div {
+    background-color: #171717;
+}
+
+.thumbnailWrapper .thumbnailBox.active {
+    border-color: #ff3737;
+}
+
+.thumbnailWrapper .thumbnailBox.active span {
+    color: #ff3737;
+}
+
+.thumbnailBox {
+    border: 1px #353434 solid;
+    width: 23%;
+    padding: 2rem;
+}
+
+.thumbnailBox h3 {
+    font-size: 1.2rem;
+}
+
+.thumbnailBox p {
+    font-size: 0.8rem;
+    color: #534F4F;
+}
+
+.thumbnailBox span {
+    color: #534F4F;
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .thumbnailWrapper {
+        justify-content: space-evenly;
+    }
+
+    .thumbnailBox {
+        width: 46%;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { }
+
+@media screen and (max-width: 768px){
+    .slideBox {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .thumbnailBox {
+        width: 92%;
+    }
+}

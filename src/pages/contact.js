@@ -1,7 +1,9 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import ActionCard from "../atoms/ActionCard/actionCard"
+import Header from "../components/Header/header"
+import ContactHero from "../components/ContactHero"
+import ContactForm from "../components/ContactForm"
+import ContactFooter from "../atoms/ContactFooter"
 
 
 
@@ -9,14 +11,12 @@ import ActionCard from "../atoms/ActionCard/actionCard"
 const Contact = () => {
   return (
 
-    <Layout>
-
-    This is Contact..
-      <ActionCard/>
-
-    </Layout>
-
-
+    <>
+    <Header/>
+    <ContactHero/>
+    <ContactForm/>
+    <ContactFooter/>
+    </>
 
   )
 }

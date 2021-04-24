@@ -1,0 +1,120 @@
+.wrapper {
+    width: 50%;
+    min-height: 500px;
+    margin: 5rem auto;
+    position: relative;
+    text-align: center;
+
+
+}
+
+.circle {
+    opacity: 0.3;
+    width: 70%;
+}
+
+.vinci {
+    width: 40%;
+    position: absolute;
+    top: -20%;
+    left: 30%;
+}
+
+.vinci img {
+    width: 80%;
+}
+
+.title {
+    position: absolute;
+    bottom: -15px;
+    width: 100%;
+    font-size: 75px;
+}
+
+.logo {
+    width: 120px;
+    position: absolute;
+    left: 42%;
+    top: 47%;
+}
+
+.text {
+    color: #7c7c7c;
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .wrapper {
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+
+    .wrapper {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .wrapper {
+        width: 80%;
+    }
+
+
+    .vinci {
+        width: 75%;
+        top: -5%;
+        left: 14%;
+    }
+
+    .vinci img {
+        width: 70%;
+    }
+
+    .text {
+        bottom: 5%;
+        z-index: 0;
+    }
+
+    .logo {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+    .wrapper {
+        width: 80%;
+    }
+
+
+    .vinci {
+        width: 90%;
+        top: 0px;
+        left: 8%;
+    }
+
+    .text {
+        bottom: 5%;
+        z-index: 0;
+    }
+
+    .logo {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 436px) {
+    .text {
+        bottom: 15%;
+    }
+}

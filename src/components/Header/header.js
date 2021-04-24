@@ -13,13 +13,13 @@ const Header = () => {
 
    <header className={`d-flex align-items-center`}>
 
-  <div className={`container d-flex justify-content-between align-items-center px-5`}>
+  <div className={`container d-flex justify-content-between align-items-center px-3`}>
 
 
       <div className={`${classes.logo}`}>
 
         <Link to={'/'}>
-          <img src={logo} width={"150px"}/>
+          <img src={logo} />
         </Link>
 
       </div>
@@ -27,10 +27,10 @@ const Header = () => {
     <nav>
 
           <ul className="d-flex justify-content-between">
-            <li className="ms-5 fs-5">
+            <li className={classes.navList}>
               <Link to={'/about'}>About </Link>
             </li>
-            <li className="ms-5 fs-5">
+            <li className={classes.navList}>
               <Link to={'/contact'}>Contact</Link>
             </li>
           </ul>

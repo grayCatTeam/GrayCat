@@ -1,0 +1,27 @@
+.addressBox {
+    text-align: center;
+    width: 50%;
+    margin: 10rem auto;
+    margin-bottom: 5rem;
+}
+
+.addressBox img{
+    margin-bottom: 1rem;
+}
+
+.addressBox p {
+    color: #534F4F;
+}
+
+.downBar {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.downBar p {
+    color: #353434;
+}
