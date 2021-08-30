@@ -17,7 +17,7 @@ const AboutProcess = () => {
         </p>
       </div>
 
-      <AboutSlide/>
+
 
       <div className={classes.job_title_card} >
         <AboutJobTitle
@@ -63,4 +63,4 @@ const AboutProcess = () => {
   )
 }
 
-export default AboutProcess
+export default AboutProcess;

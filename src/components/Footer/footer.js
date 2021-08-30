@@ -26,6 +26,7 @@ const Footer = () => {
             </div>
             <div className={classes.address}>
               <p className="fs-6">Abbasaga / Besiktas 34364 Istanbul</p>
+              <a href="mailto:graycatcoo@gmail.com">info@graycat.co</a>
             </div>
           </div>
           <div className={`col-xl-6 col-md-12 d-xl-flex justify-content-end flex-column align-items-end`}>
