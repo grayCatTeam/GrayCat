@@ -2,7 +2,7 @@ import React, { useEffect,useRef } from "react"
 import gsap from "gsap/all"
 import {ScrollTrigger} from "gsap/ScrollTrigger"
 
-import classes from './hero.module.css'
+import * as classes from './hero.module.css'
 
 import heroImg from '../../assets/images/heroSculpture@2x.png'
 import grid from '../../assets/images/points@2x.png'

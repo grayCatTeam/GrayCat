@@ -1,7 +1,5 @@
 import React from 'react';
-
 import classes from './contacthero.module.css';
-
 import vinci from '../../assets/images/davinci@2x.png';
 import circle from '../../assets/images/contactCircle@2x.png';
 import logo from '../../assets/graycatlight.svg';

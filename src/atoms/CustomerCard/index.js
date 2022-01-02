@@ -1,13 +1,9 @@
-import React from 'react'
-
-import classes from './customerCard.module.css'
-import { Link } from "gatsby"
-
+import React from 'react';
+import * as classes from './customerCard.module.css';
+import { Link } from "gatsby";
 
 const CustomerCard = (props) => {
-
   return(
-
     <div className={`card container ${classes.cardWrap}`}>
       <div className="row">
         <div className="col-xl-6 col-lg-12">
@@ -32,8 +28,7 @@ const CustomerCard = (props) => {
         </div>
       </div>
     </div>
-
   )
 }
 
-export default CustomerCard
+export default CustomerCard;

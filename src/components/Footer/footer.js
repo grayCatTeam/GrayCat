@@ -1,19 +1,10 @@
-import React from 'react'
-
-
-import { Link } from "gatsby"
-import { FaBehance, FaCodepen, FaDribbble, FaInstagram, FaLinkedin } from "react-icons/fa"
-
-import logo from "../../assets/graycatlight.svg"
-import classes from "./footer.module.css"
-import { IconContext } from "react-icons"
-
-
+import React from 'react';
+import { Link } from "gatsby";
+import logo from "../../assets/graycatlight.svg";
+import * as classes from "./footer.module.css";
 
 const Footer = () => {
-
   return (
-
     <footer className={classes.footer}>
       <div className={`container`}>
         <div className={`row p-5`}>
@@ -34,12 +25,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
     </footer>
-
   )
-
-
 }
 
-export default Footer
+export default Footer;

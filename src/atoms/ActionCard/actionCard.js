@@ -1,18 +1,13 @@
-import React from "react"
-import {Link} from 'gatsby'
-
-
-import classes from './actionCard.module.css'
-
-import cat from '../../assets/images/cat.png'
-import vertigo from '../../assets/images/vertigo.png'
+import React from "react";
+import {Link} from 'gatsby';
+import * as classes from './actionCard.module.css';
+import cat from '../../assets/images/cat.png';
+import vertigo from '../../assets/images/vertigo.png';
 
 const ActionCard = () => {
   return(
-
     <div className={`container border-5 border-danger ${classes.actionWrapper}`}>
       <div className={`${classes.actionText}`}>
-
         <div className={classes.textWrap}>
           <h3>Let's Collabrate</h3>
           <p>
@@ -32,9 +27,8 @@ const ActionCard = () => {
         </div>
       </div>
     </div>
-
   )
 }
 
 
-export default ActionCard
+export default ActionCard;
