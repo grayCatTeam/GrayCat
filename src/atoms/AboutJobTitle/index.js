@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './aboutJobTitle.module.css';
+import * as classes from './aboutJobTitle.module.css';
 
 const AboutJobTitle = (props) => {
   return (

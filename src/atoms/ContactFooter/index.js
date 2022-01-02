@@ -1,6 +1,5 @@
 import React from 'react';
-
-import classes from './contactfooter.module.css';
+import * as classes from './contactfooter.module.css';
 import logo from '../../assets/images/graycatlight.png';
 import { IconContext } from "react-icons";
 import { FaBehance, FaCodepen, FaDribbble, FaInstagram, FaLinkedin } from "react-icons/fa";

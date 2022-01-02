@@ -2,7 +2,7 @@
   "name": "graycat-studio",
   "private": true,
   "description": "GrayCat Studio Web Page",
-  "version": "2.0",
+  "version": "1.0",
   "author": "graycatcoo@gmail.com",
   "dependencies": {
     "bootstrap": "^5.1.3",

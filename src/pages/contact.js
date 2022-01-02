@@ -4,19 +4,14 @@ import ContactHero from "../components/ContactHero"
 import ContactForm from "../components/ContactForm"
 import ContactFooter from "../atoms/ContactFooter"
 
-
-
-
 const Contact = () => {
   return (
-
     <>
-    <Header/>
-    <ContactHero/>
-    <ContactForm/>
-    <ContactFooter/>
+      <Header/>
+      <ContactHero/>
+      <ContactForm/>
+      <ContactFooter/>
     </>
-
   )
 }
 
