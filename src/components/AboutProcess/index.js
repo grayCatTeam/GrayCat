@@ -1,9 +1,6 @@
 import React from "react";
-
-import classes from './aboutProcess.module.css';
-import AboutSlide from "../../atoms/AboutSlide"
+import * as classes from './aboutProcess.module.css';
 import AboutJobTitle from "../../atoms/AboutJobTitle"
-
 
 const AboutProcess = () => {
 
@@ -16,9 +13,6 @@ const AboutProcess = () => {
           to turn visions into digital experiences, which people love living in.
         </p>
       </div>
-
-
-
       <div className={classes.job_title_card} >
         <AboutJobTitle
           title="Strategy and Planning"

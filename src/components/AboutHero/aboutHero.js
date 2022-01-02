@@ -1,5 +1,5 @@
 import React from "react"
-import classes from "./aboutHero.module.css"
+import * as classes from "./aboutHero.module.css"
 import arrowDown from "../../assets/icons/arrowDown.svg"
 
 

@@ -1,6 +1,5 @@
 import React from 'react';
-
-import classes from './contactform.module.css';
+import * as classes from './contactform.module.css';
 import { Formik,Form,Field } from "formik"
 
 const ContactForm = () => {

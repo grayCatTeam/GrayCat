@@ -11,32 +11,16 @@ import dayi from '../../assets/images/dayi@2x.png'
 import sun from '../../assets/images/sun@2x.png'
 import arrowDown from '../../assets/icons/arrowDown.svg';
 
-
-
-
 const IndexHero = () => {
-
-
   gsap.registerPlugin(ScrollTrigger)
-
   let aniItem = useRef([])
-
-
   let tl = gsap.timeline({defaults: {ease: "SlowMo.easeOut"}})
-
   useEffect( () => {
-
     tl.to('#create', {delay:1.3 , y:'0%',duration:1, stagger:0.2})
-
   },[])
-
-
   return (
-
     <div className={`container px-sm-3 px-5 h-100 d-flex align-items-center flex-column justify-content-center ${classes.hero}`}>
-
       <div className={`row row-cols-1 row-cols-md-2 w-100 ${classes.heroRow}`}>
-
         <div className={`col d-flex align-items-center ${classes.firstColumn}`}>
           <div
             ref={el => {aniItem = el}}
@@ -68,21 +52,12 @@ const IndexHero = () => {
           </div>
         </div>
 
-
       </div>
       <div className="row mt-5 pt-5 w-100 d-flex justify-content-center position-relative">
         <img src={arrowDown} className={classes.arrow} />
       </div>
-
-
     </div>
-
-
-
   )
-
-
 }
-
 
 export default IndexHero
